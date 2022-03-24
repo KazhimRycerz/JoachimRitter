@@ -1,0 +1,27 @@
+body {
+    background-image: url(./Images/1200px-Fingerprint_picture.png);
+    background-repeat:no-repeat;
+    background-size:75vh;
+    background-color: rgba(96, 123, 212, 0.452);
+}
+
+h1 {
+   text-align:center;
+   margin-left: 50vw;
+   margin-top: 3em; 
+   width: 50vw;
+}
+
+nav {
+    font-size: 2em;
+}
+
+img[src*="IMG_35"] {
+    width: 75vh;
+    position:absolute;
+    top: 0px; left: 0;
+}
+
+img[src*="IMG_35"]:hover {
+    visibility: none;
+}
