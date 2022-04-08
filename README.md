@@ -1,7 +1,7 @@
 # JoachimRitter
 personal website
+
 ![myFingerprintInProfession](./Images/Joachim%20privat.JPG)
-![myFingerprintInProfession](./Images/1200px-Fingerprint_picture%204c.png)
 
 
 - [ ] personal data
