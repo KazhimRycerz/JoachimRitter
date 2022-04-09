@@ -2,7 +2,7 @@
 personal website
 Journalist, manager, creator of opportunities, currently learning coding of websites
 
-![myFingerprintInProfession](./Images/Joachim%20privat.JPG)
+![myFingerprintInProfession](./Images/Joachim_privat.JPG)
 
 
 - [ ] personal data
