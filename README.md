@@ -2,7 +2,9 @@
 personal website
 Journalist, manager, creator of opportunities, currently learning coding of websites
 
+
 ![myFingerprintInProfession](./src/Images/Joachim_privat.JPG)
+
 
 ### Working plan
 
