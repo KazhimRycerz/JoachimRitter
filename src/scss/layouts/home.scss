@@ -1,10 +1,10 @@
 body {
-    background-image: url(./Images/1200px-Fingerprint_picture.png);
+    background-image: url(../../Images/1200px-Fingerprint_picture.png);
+    backdrop-filter: saturate(80%);
     background-repeat:no-repeat;
     background-size:50vh;
-    background-color: rgb(213, 168, 89);
-    background-position: 5vw 5vh;
-    
+    background-color: rgb(90, 153, 184);
+    background-position: 5vw 5vh; 
 }
 
 h1 {
@@ -28,10 +28,13 @@ nav {
    text-align: left;
    top: 3rem;
    left: 50%;
-   }
-   nav ul {
+   ul li{
        list-style-type: none;
+       a {
+           text-decoration: none;
+       }
    }
+}
 
 figure {
     display: flex;
@@ -55,26 +58,28 @@ figure>img {
 
 
 
-#first, nav>ul>li:first-child:hover {
-    opacity: 0;
-    animation: fadeinandout 3s infinite ease alternate-reverse;
+nav>ul>li>a:first-child:hover {
+    opacity: 1;
     z-index:10;
     color: white;
+    text-decoration: none;
+    animation-play-state:running;
+
 }
 
-#first:hover {
+#first {
     opacity: 1;
-    animation-play-state: paused;
+    animation: fadeinandout 2.0s infinite ease alternate-reverse;
     z-index: 11;
 }
-nav>ul>li:first-child:hover {
+/* nav>ul>li:first-child:hover {
     animation: fadeinandout 3s infinite ease alternate-reverse;
-}
-nav>ul>li:first-child:hover #first {
+} */
+/* nav>ul>li:first-child:hover #first {
     display: block;
     opacity: 1;
     animation-play-state: paused;
-}
+} */
 
 
 #second {

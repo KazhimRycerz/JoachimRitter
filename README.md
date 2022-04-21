@@ -1,6 +1,6 @@
 # Joachim Ritter
 personal website
-Journalist, manager, creator of opportunities, currently learning coding of websites
+Journalist, manager, creator of opportunities, currently learning website coding.
 
 ![myFingerprintInProfession](./src/Images/Joachim_privat.JPG)
 
