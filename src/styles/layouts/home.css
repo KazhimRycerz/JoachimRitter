@@ -1,84 +1,36 @@
 body {
-  background-image: url(../../Images/1200px-Fingerprint_picture.png);
+  /* background-image: url(../../Images/1200px-Fingerprint_picture.png);
   backdrop-filter: saturate(80%);
-  background-repeat: no-repeat;
-  background-size: 50vh;
-  background-color: rgb(90, 153, 184);
-  background-position: 5vw 5vh;
+  background-repeat:no-repeat;
+  background-size: 30vw; */
+  background-color: rgb(166, 206, 225);
+  /* background-position: 5vw 5vh;  */
 }
 
-h1 {
-  font-size: 5rem;
-  text-align: center;
-  margin-left: 50vw;
-  margin-top: 3em;
-  width: 50vw;
-}
-
-p {
-  text-align: center;
-  font-size: 2rem;
-  margin-left: 50vw;
-  width: 50vw;
-}
-
-nav {
-  width: 50%;
-  font-size: 1.5rem;
-  position: relative;
-  text-align: left;
-  top: 3rem;
-  left: 50%;
-}
-nav ul li {
-  list-style-type: none;
-}
-nav ul li a {
-  text-decoration: none;
-}
-
-figure {
-  display: flex;
-  justify-content: end;
-  position: relative;
-  right: 200px;
-}
-
-figure > img {
-  width: 400px;
-  object-fit: cover;
-}
-
-#fingerlines img {
-  visibility: visible;
-  width: 50vh;
+#fingerlines {
   position: absolute;
   top: 5vh;
   left: 5vw;
 }
+#fingerlines a img {
+  visibility: visible;
+  width: 30vw;
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+}
 
-nav > ul > li > a:first-child:hover {
+#basis {
   opacity: 1;
-  z-index: 10;
-  color: white;
-  text-decoration: none;
-  animation-play-state: running;
+  z-index: 1;
 }
 
 #first {
-  opacity: 1;
+  opacity: 0;
   animation: fadeinandout 2s infinite ease alternate-reverse;
   z-index: 11;
 }
 
-/* nav>ul>li:first-child:hover {
-    animation: fadeinandout 3s infinite ease alternate-reverse;
-} */
-/* nav>ul>li:first-child:hover #first {
-    display: block;
-    opacity: 1;
-    animation-play-state: paused;
-} */
 #second {
   opacity: 0;
   animation: fadeinandout 2s infinite ease alternate-reverse;
@@ -135,8 +87,61 @@ nav > ul > li > a:first-child:hover {
     opacity: 1;
   }
 }
+header {
+  width: 50vw;
+  position: relative;
+  left: 50vw;
+  top: 5vh;
+}
+
+main {
+  width: 50%;
+  position: relative;
+  left: 50%;
+  margin-top: 100px;
+}
+main h1 {
+  font-size: 5rem;
+  text-align: left;
+  margin-left: 0vw;
+  width: 100%;
+}
+main p {
+  text-align: left;
+  font-size: 2rem;
+  width: 50vw;
+}
+main figure {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 200px;
+}
+main figure img {
+  width: 30%;
+  object-fit: cover;
+}
+main figure nav {
+  font-size: 1.3rem;
+  position: relative;
+  text-align: left;
+  padding-right: 30px;
+}
+main figure nav ul li {
+  list-style-type: none;
+}
+main figure nav ul li a {
+  text-decoration: none;
+}
+
+nav > ul > li > a:first-child:hover {
+  opacity: 1;
+  z-index: 10;
+  color: white;
+}
+
 /* animation-play-state: running;
 animation-play-state: paused;
- */
+*/
 
 /*# sourceMappingURL=home.css.map */

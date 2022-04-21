@@ -1,0 +1,198 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+@font-face {
+  font-family: "VIA-Verlag";
+  src: url("../fonts/VIA-Verlag.woff2") format("woff2"), url("../fonts/VIA-Verlag.otf") format("otf");
+}
+@font-face {
+  font-family: "BillboardShadow";
+  src: url("../fonts/Billboard/Billboard-Shadow.woff2") format("woff2"), url("../fonts/Billboard/Billboard-Shadow.otf") format("otf");
+}
+@font-face {
+  font-family: "Carbono";
+  src: url("../fonts/carbono/carbono.woff2") format("woff2"), url("../fonts/carbono/carbono.otf") format("otf");
+}
+@font-face {
+  font-family: "Vacaciones";
+  src: url("../fonts/vacaciones-outline/Vacaciones-font-ffp-defharo.woff2") format("woff2"), url("../fonts/vacaciones-outline/Vacaciones-font-ffp-defharo.otf") format("otf");
+}
+@font-face {
+  font-family: "CorporateDemi";
+  src: url("../fonts/CorporateSTOT-Dem.woff2") format("woff2"), url("../fonts/CorporateSTOT-Dem.otf") format("otf");
+}
+@font-face {
+  font-family: "CorporateReg";
+  src: url("../fonts/Corporate/CorporateSTOT-Reg.woff2") format("woff2"), url("../fonts/Corporate/CorporateSTOT-Reg.otf") format("otf");
+}
+@font-face {
+  font-family: "FallingSkyOu";
+  src: url("../fonts/Falling-Sky-Condensed-Outline/FallingSkyOu.woff2") format("woff2"), url("../fonts/Falling-Sky-Condensed-Outline/FallingSkyOu.otf") format("otf");
+}
+@font-face {
+  font-family: "ChalkLine";
+  src: url("../fonts/chalk_line_outline/ChalkLine-Outline.woff2") format("woff2"), url("../fonts/chalk_line_outline/ChalkLine-Outline.otf") format("otf");
+}
+@font-face {
+  font-family: "Rampart";
+  src: url("../fonts/Rampart_One/RampartOne-Regular.woff2") format("woff2"), url("../fonts/Rampart_One/RampartOne-Regular.otf") format("otf");
+}
+@font-face {
+  font-family: "Thunderlord";
+  src: url("../fonts/thunder_lord/ThunderLord.woff2") format("woff2"), url("../fonts/thunder_lord/ThunderLord.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanExpNorm";
+  src: url("../fonts/Foundry/FOUSANNO.woff2") format("woff2"), url("../fonts/Foundry/FOUSANNO.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanBd";
+  src: url("../fonts/Foundry/FOUSANBD.woff2") format("woff2"), url("../fonts/Foundry/FOUSANBD.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanExpMed";
+  src: url("../fonts/Foundry/FOUSANMD.woff2") format("woff2"), url("../fonts/Foundry/FOUSANMD.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanExBold";
+  src: url("../fonts/Foundry/FOUSANEB.woff2") format("woff2"), url("../fonts/Foundry/FOUSANEB.otf") format("otf");
+}
+@font-face {
+  font-family: "VIA-Verlag";
+  src: url("../fonts/VIA-Verlag.woff2") format("woff2"), url("../fonts/VIA-Verlag.otf") format("otf");
+}
+@font-face {
+  font-family: "BillboardShadow";
+  src: url("../fonts/Billboard/Billboard-Shadow.woff2") format("woff2"), url("../fonts/Billboard/Billboard-Shadow.otf") format("otf");
+}
+@font-face {
+  font-family: "Carbono";
+  src: url("../fonts/carbono/carbono.woff2") format("woff2"), url("../fonts/carbono/carbono.otf") format("otf");
+}
+@font-face {
+  font-family: "Vacaciones";
+  src: url("../fonts/vacaciones-outline/Vacaciones-font-ffp-defharo.woff2") format("woff2"), url("../fonts/vacaciones-outline/Vacaciones-font-ffp-defharo.otf") format("otf");
+}
+@font-face {
+  font-family: "CorporateDemi";
+  src: url("../fonts/CorporateSTOT-Dem.woff2") format("woff2"), url("../fonts/CorporateSTOT-Dem.otf") format("otf");
+}
+@font-face {
+  font-family: "CorporateReg";
+  src: url("../fonts/Corporate/CorporateSTOT-Reg.woff2") format("woff2"), url("../fonts/Corporate/CorporateSTOT-Reg.otf") format("otf");
+}
+@font-face {
+  font-family: "FallingSkyOu";
+  src: url("../fonts/Falling-Sky-Condensed-Outline/FallingSkyOu.woff2") format("woff2"), url("../fonts/Falling-Sky-Condensed-Outline/FallingSkyOu.otf") format("otf");
+}
+@font-face {
+  font-family: "ChalkLine";
+  src: url("../fonts/chalk_line_outline/ChalkLine-Outline.woff2") format("woff2"), url("../fonts/chalk_line_outline/ChalkLine-Outline.otf") format("otf");
+}
+@font-face {
+  font-family: "Rampart";
+  src: url("../fonts/Rampart_One/RampartOne-Regular.woff2") format("woff2"), url("../fonts/Rampart_One/RampartOne-Regular.otf") format("otf");
+}
+@font-face {
+  font-family: "Thunderlord";
+  src: url("../fonts/thunder_lord/ThunderLord.woff2") format("woff2"), url("../fonts/thunder_lord/ThunderLord.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanExpNorm";
+  src: url("../fonts/Foundry/FOUSANNO.woff2") format("woff2"), url("../fonts/Foundry/FOUSANNO.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanBd";
+  src: url("../fonts/Foundry/FOUSANBD.woff2") format("woff2"), url("../fonts/Foundry/FOUSANBD.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanExpMed";
+  src: url("../fonts/Foundry/FOUSANMD.woff2") format("woff2"), url("../fonts/Foundry/FOUSANMD.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanExBold";
+  src: url("../fonts/Foundry/FOUSANEB.woff2") format("woff2"), url("../fonts/Foundry/FOUSANEB.otf") format("otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: url(../../images/c.png), auto;
+}
+
+/* textsizes*/
+/*$medium: 4rem;
+$large: 10rem;
+$huge: 20rem;
+
+$border-radius:*/
+/*Mediasetting*/
+/* Fonts */
+/* logos */
+.logo_cpd {
+  width: 8%;
+  margin-left: 0px;
+  margin-right: 10px;
+  right: 10px;
+  align-items: right;
+}
+
+.LC {
+  font-family: "VIA-Verlag";
+  font-weight: bold;
+  letter-spacing: -5px;
+  line-height: normal;
+  font-style: normal;
+  color: rgb(125, 0, 0);
+  font-size: 2.5rem;
+  position: relative;
+  bottom: -0.15rem;
+}
+
+.C {
+  font-family: "VIA-Verlag";
+  color: rgb(125, 0, 0);
+  font-size: 1.3em;
+  position: relative;
+  top: 3px;
+  /* bottom: -0.14em; */
+  text-decoration: none;
+}
+
+.Calli {
+  font-family: "VIA-Verlag";
+  line-height: normal;
+  font-style: normal;
+  font-size: 1.1rem;
+  position: relative;
+  bottom: -0.14em;
+  text-decoration: none;
+}
+
+.LitCoin {
+  font-family: "VIA-Verlag";
+  font-style: normal;
+  line-height: normal;
+  color: rgb(125, 0, 0);
+  font-size: 1.5em;
+  position: relative;
+  bottom: -0.14em;
+}
+
+.grad {
+  background-image: linear-gradient(rgb(173, 173, 213), rgb(228, 150, 150));
+  background-attachment: fixed;
+}
+
+.Trenner {
+  margin: 50px auto;
+  width: 5%;
+  display: block;
+}
+
+body {
+  font-family: "FoundSanExpNorm", sans-serif;
+}
+
+/*# sourceMappingURL=global.css.map */

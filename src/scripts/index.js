@@ -1,11 +1,11 @@
-function openNav() {
-    document.getElementById("mySidenav").style.left = "0";
-    document.getElementById("main").style.marginLeft = "-60px";
-    /* document.body.style.backgroundColor = "rgba(0,0,0,0.4)"; */
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidenav").style.left = "-150px";
-    document.getElementById("main").style.marginLeft = "1vw";
-    /* document.body.style.backgroundColor = "white"; */
-  }
+function lightTopic() {
+  document.getElementById("personalData").style.color = "black";
+  document.getElementById("fingerlines").style.animationPlayState = "none";
+  document.getElementById("first").style.color = "white"; 
+}
+
+   /*  document.getElementById("personalData").onmouseover = function () {
+    this.style.color = "white";
+    document.getElementById("first").style.color = "white"; 
+    document.getElementById("first").style.animationPlayState = "none";
+  } */
