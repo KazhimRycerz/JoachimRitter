@@ -76,9 +76,9 @@ header {
 
 
 main {
-    width: 50%;
+    width: 40%;
     position: relative;
-    left: 50%;
+    left: 45%;
     top: 10vh;
     
     
@@ -97,7 +97,7 @@ main {
         display: flex;
         justify-content: space-between;
         gap: 30px;
-        position: absolute;
+        /* position: absolute; */
         margin-top: 60px;
         
         img {

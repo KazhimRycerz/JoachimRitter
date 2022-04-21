@@ -30,7 +30,7 @@ Instagram: [Joachim Ritter](https://www.instagram.com/ritter_joachim/)
 
 - [x] _HTML5_
 - [x] _CSS3_
-- [] _SASS_
+- [ ] _SASS_
 - [x] _SCSS_
 - [x] _JavaScript_
 - [ ] _React_

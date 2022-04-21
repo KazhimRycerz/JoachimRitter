@@ -25,9 +25,9 @@ header {
 }
 
 main {
-  width: 50%;
+  width: 40%;
   position: relative;
-  left: 50%;
+  left: 45%;
   top: 10vh;
 }
 main h1 {
@@ -42,27 +42,35 @@ main p {
   width: 50vw;
 }
 main figure {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  position: absolute;
-  margin-top: 60px;
+  position: fixed;
+  width: 7%;
+  height: auto;
+  top: 12vh;
+  right: 5vw;
 }
 main figure img {
-  width: 30%;
+  width: 100%;
+  aspect-ratio: 1;
   object-fit: cover;
+  object-position: 0px 0px;
+  border-radius: 50%;
 }
-main figure nav {
-  font-size: 1.5rem;
-  font-weight: 800;
+main #sidenav {
+  position: fixed;
+  width: 120px;
+  right: 5vw;
+  top: 30vh;
+  font-size: 1rem;
+  font-weight: 900;
   font-variant: small-caps;
   text-align: left;
-  padding-right: 30px;
+  padding-right: 0px;
 }
-main figure nav ul li {
+main #sidenav ul li {
   list-style-type: none;
+  margin-bottom: 20px;
 }
-main figure nav ul li a {
+main #sidenav ul li a {
   text-decoration: none;
   color: black;
 }
@@ -71,6 +79,21 @@ nav > ul > li > a:hover {
   opacity: 1;
   z-index: 10;
   color: white;
+}
+
+#content {
+  margin-top: 120px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  width: 80%;
+  height: auto;
+  max-height: 60vh;
+  overflow-y: scroll;
+}
+#content p {
+  font-size: 1rem;
+  padding: 20px;
+  width: 100%;
 }
 
 /* animation-play-state: running;
