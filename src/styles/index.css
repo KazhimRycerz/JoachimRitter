@@ -137,18 +137,18 @@ body {
   font-family: "FoundSanExpNorm", sans-serif;
   background-image: url(../../Images/IMG_1839.PNG);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100vw;
   background-color: rgb(166, 206, 225);
 }
 
 #fingerlines {
   position: absolute;
-  top: 10vh;
+  top: 33vh;
   left: 10vw;
 }
 #fingerlines a img {
   visibility: visible;
-  width: 30vw;
+  width: 25vw;
   position: absolute;
   top: 0vh;
   left: 0vw;
@@ -252,11 +252,12 @@ main figure {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  /* position: absolute; */
-  margin-top: 60px;
+  position: relative;
+  top: 12vh;
 }
 main figure img {
   width: 30%;
+  height: 30%;
   object-fit: cover;
 }
 main figure nav {
@@ -268,13 +269,13 @@ main figure nav {
 }
 main figure nav ul li {
   list-style-type: none;
+  margin-bottom: 20px;
 }
 main figure nav ul li a {
   text-decoration: none;
   color: black;
 }
-
-nav > ul > li > a:hover {
+main figure nav ul > li > a:hover {
   opacity: 1;
   z-index: 10;
   color: white;

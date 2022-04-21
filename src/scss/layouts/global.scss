@@ -4,9 +4,9 @@
 
 body {
     font-family: $primary-font;
-     background-image: url(../../Images/IMG_1839.PNG);
+    background-image: url(../../Images/IMG_1839.PNG);
     background-repeat:no-repeat;
-    background-size: 100%;
+    background-size: 100vw;
     background-color: rgb(166, 206, 225);
    
     
@@ -14,10 +14,10 @@ body {
 
 #fingerlines {
     position:absolute;
-    top: 10vh; left: 10vw;
+    top: 33vh; left: 10vw;
     a img {
     visibility: visible;
-    width: 30vw;
+    width: 25vw;
     position:absolute;
     top: 0vh; left: 0vw;
 }

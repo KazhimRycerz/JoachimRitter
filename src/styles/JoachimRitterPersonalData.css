@@ -137,18 +137,18 @@ body {
   font-family: "FoundSanExpNorm", sans-serif;
   background-image: url(../../Images/IMG_1839.PNG);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100vw;
   background-color: rgb(166, 206, 225);
 }
 
 #fingerlines {
   position: absolute;
-  top: 10vh;
+  top: 33vh;
   left: 10vw;
 }
 #fingerlines a img {
   visibility: visible;
-  width: 30vw;
+  width: 25vw;
   position: absolute;
   top: 0vh;
   left: 0vw;
@@ -215,8 +215,8 @@ main figure img {
 main #sidenav {
   position: fixed;
   width: 120px;
-  right: 5vw;
-  top: 30vh;
+  right: 4vw;
+  top: 34vh;
   font-size: 1rem;
   font-weight: 900;
   font-variant: small-caps;
@@ -231,21 +231,25 @@ main #sidenav ul li a {
   text-decoration: none;
   color: black;
 }
-
-nav > ul > li > a:hover {
+main #sidenav ul > li > a:hover {
   opacity: 1;
   z-index: 10;
   color: white;
 }
 
 #content {
-  margin-top: 120px;
+  position: relative;
+  top: 12vh;
+  margin-bottom: 200px;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   width: 80%;
-  height: auto;
-  max-height: 60vh;
-  overflow-y: scroll;
+  max-height: 50vh;
+  /*  max-height: 30%; */
+  overflow-y: auto;
+}
+#content h2 {
+  padding: 20px;
 }
 #content p {
   font-size: 1rem;

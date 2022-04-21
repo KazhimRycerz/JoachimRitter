@@ -58,8 +58,8 @@ main figure img {
 main #sidenav {
   position: fixed;
   width: 120px;
-  right: 5vw;
-  top: 30vh;
+  right: 4vw;
+  top: 34vh;
   font-size: 1rem;
   font-weight: 900;
   font-variant: small-caps;
@@ -74,21 +74,25 @@ main #sidenav ul li a {
   text-decoration: none;
   color: black;
 }
-
-nav > ul > li > a:hover {
+main #sidenav ul > li > a:hover {
   opacity: 1;
   z-index: 10;
   color: white;
 }
 
 #content {
-  margin-top: 120px;
+  position: relative;
+  top: 12vh;
+  margin-bottom: 200px;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   width: 80%;
-  height: auto;
-  max-height: 60vh;
-  overflow-y: scroll;
+  max-height: 50vh;
+  /*  max-height: 30%; */
+  overflow-y: auto;
+}
+#content h2 {
+  padding: 20px;
 }
 #content p {
   font-size: 1rem;
