@@ -33,11 +33,10 @@ header {
 
 
 main {
-    width: 50%;
+    width: 40%;
     position: relative;
-    left: 50%;
+    left: 45%;
     top: 10vh;
-    
     
     h1 {
         font-size: 4rem;
@@ -51,30 +50,38 @@ main {
         width: 50vw;
     }
     figure {
-        display: flex;
-        justify-content: space-between;
-        gap: 30px;
-        position: absolute;
-        margin-top: 60px;
-        
+        position: fixed;
+        width: 7%;
+        height:  auto;
+        top: 12vh;
+        right: 5vw;        
         img {
-            width: 30%;
+            width: 100%;
+            aspect-ratio: 1;
             object-fit: cover;
+            object-position: 0px 0px;
+            border-radius: 50%;
         }
-        nav {
-            font-size: 1.5rem;
-            font-weight: 800;
-            font-variant:small-caps;
-            text-align: left;
-            padding-right: 30px;
-            ul li{
-                list-style-type: none;
-                a {
-                    text-decoration: none;
-                    color: black;
-                }
+    }
+    #sidenav {
+        position: fixed;
+        width: 120px;
+        right: calc(5vw);
+        top: 30vh;
+        font-size: 1rem;
+        font-weight: 900;
+        font-variant:small-caps;
+        text-align: left;
+        padding-right: 0px;
+        ul li{
+            list-style-type: none;
+            margin-bottom: 20px;
+            a {
+                text-decoration: none;
+                color: black;
             }
         }
+    
     }
 }
 
@@ -83,6 +90,22 @@ nav>ul>li>a:hover {
     z-index:10;
     color: white; 
 }
+
+#content {
+    margin-top: 120px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    max-height: 60vh;
+    overflow-y: scroll;
+    p{
+    font-size: 1rem;
+    padding: 20px;
+    width: 100%;
+}
+}
+
 
 
 /* animation-play-state: running;
