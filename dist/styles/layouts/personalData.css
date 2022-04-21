@@ -1,0 +1,80 @@
+body {
+  /* background-image: url(../../Images/1200px-Fingerprint_picture.png);
+  backdrop-filter: saturate(80%);
+  background-repeat:no-repeat;
+  background-size: 30vw; */
+  background-color: rgb(166, 206, 225);
+  /* background-position: 5vw 5vh;  */
+}
+
+#basis {
+  opacity: 1;
+  z-index: 1;
+}
+
+#first {
+  opacity: 1;
+  animation: none;
+  z-index: 11;
+}
+
+header {
+  width: 50vw;
+  position: relative;
+  left: 50vw;
+}
+
+main {
+  width: 50%;
+  position: relative;
+  left: 50%;
+  top: 10vh;
+}
+main h1 {
+  font-size: 4rem;
+  text-align: left;
+  margin-left: 0vw;
+  width: 100%;
+}
+main p {
+  text-align: left;
+  font-size: 2rem;
+  width: 50vw;
+}
+main figure {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  position: absolute;
+  margin-top: 60px;
+}
+main figure img {
+  width: 30%;
+  object-fit: cover;
+}
+main figure nav {
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-variant: small-caps;
+  text-align: left;
+  padding-right: 30px;
+}
+main figure nav ul li {
+  list-style-type: none;
+}
+main figure nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav > ul > li > a:hover {
+  opacity: 1;
+  z-index: 10;
+  color: white;
+}
+
+/* animation-play-state: running;
+animation-play-state: paused;
+*/
+
+/*# sourceMappingURL=personalData.css.map */

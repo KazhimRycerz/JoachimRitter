@@ -2,11 +2,11 @@
 personal website
 Journalist, manager, creator of opportunities, currently learning website coding.
 
-![myFingerprintInProfession](./src/Images/Joachim_privat.JPG)
+![myFingerprintInProfession](./src/Images/JoachimRitterPage.jpg)
 
 ### Working plan
 
-- [ ] basic set-up working tree and working plan
+- [x] basic set-up working tree and working plan
 - [ ] personal data
 - [ ] professional philosophie / motivation
 - [ ] professional carrear / influence in the professional world
@@ -14,7 +14,7 @@ Journalist, manager, creator of opportunities, currently learning website coding
 
 ### How to use this Project
 
---> in preparation
+--> information only - presentation
 
 ### Contact
 
@@ -30,8 +30,8 @@ Instagram: [Joachim Ritter](https://www.instagram.com/ritter_joachim/)
 
 - [x] _HTML5_
 - [x] _CSS3_
-- [x] _SASS_
-- [ ] _SCSS_
+- [] _SASS_
+- [x] _SCSS_
 - [x] _JavaScript_
 - [ ] _React_
 - [ ] _Bootstrap_
