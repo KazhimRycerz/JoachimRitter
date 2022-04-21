@@ -85,7 +85,7 @@ header {
     width: 50vw;
     position:relative;
     left: 50vw;
-    top:5vh;
+    
     
 }
 
@@ -94,10 +94,11 @@ main {
     width: 50%;
     position: relative;
     left: 50%;
-    margin-top: 250px;
+    top: 10vh;
+    
     
     h1 {
-        font-size: 5rem;
+        font-size: 4rem;
         text-align: left;
         margin-left: 0vw;
         width: 100%;
@@ -110,8 +111,10 @@ main {
     figure {
         display: flex;
         justify-content: space-between;
+        gap: 30px;
         position: absolute;
-        top: 200px;
+        margin-top: 60px;
+        
         img {
             width: 30%;
             object-fit: cover;
@@ -125,6 +128,7 @@ main {
                 list-style-type: none;
                 a {
                     text-decoration: none;
+                    color: black;
                 }
             }
         }

@@ -230,17 +230,16 @@ header {
   width: 50vw;
   position: relative;
   left: 50vw;
-  top: 5vh;
 }
 
 main {
   width: 50%;
   position: relative;
   left: 50%;
-  margin-top: 250px;
+  top: 10vh;
 }
 main h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: left;
   margin-left: 0vw;
   width: 100%;
@@ -253,8 +252,9 @@ main p {
 main figure {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
   position: absolute;
-  top: 200px;
+  margin-top: 60px;
 }
 main figure img {
   width: 30%;
@@ -271,6 +271,7 @@ main figure nav ul li {
 }
 main figure nav ul li a {
   text-decoration: none;
+  color: black;
 }
 
 nav > ul > li > a:first-child:hover {
