@@ -135,6 +135,23 @@ $border-radius:*/
 
 body {
   font-family: "FoundSanExpNorm", sans-serif;
+  background-image: url(../../Images/IMG_1839.PNG);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgb(166, 206, 225);
+}
+
+#fingerlines {
+  position: absolute;
+  top: 10vh;
+  left: 10vw;
+}
+#fingerlines a img {
+  visibility: visible;
+  width: 30vw;
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
 }
 
 /*# sourceMappingURL=global.css.map */

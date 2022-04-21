@@ -135,21 +135,16 @@ $border-radius:*/
 
 body {
   font-family: "FoundSanExpNorm", sans-serif;
-}
-
-body {
-  /* background-image: url(../../Images/1200px-Fingerprint_picture.png);
-  backdrop-filter: saturate(80%);
-  background-repeat:no-repeat;
-  background-size: 30vw; */
+  background-image: url(../../Images/IMG_1839.PNG);
+  background-repeat: no-repeat;
+  background-size: 100%;
   background-color: rgb(166, 206, 225);
-  /* background-position: 5vw 5vh;  */
 }
 
 #fingerlines {
   position: absolute;
-  top: 5vh;
-  left: 5vw;
+  top: 10vh;
+  left: 10vw;
 }
 #fingerlines a img {
   visibility: visible;
@@ -157,6 +152,10 @@ body {
   position: absolute;
   top: 0vh;
   left: 0vw;
+}
+
+#fingerlines {
+  position: absolute;
 }
 
 #basis {
@@ -261,7 +260,8 @@ main figure img {
   object-fit: cover;
 }
 main figure nav {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: 800;
   font-variant: small-caps;
   text-align: left;
   padding-right: 30px;
@@ -274,7 +274,7 @@ main figure nav ul li a {
   color: black;
 }
 
-nav > ul > li > a:first-child:hover {
+nav > ul > li > a:hover {
   opacity: 1;
   z-index: 10;
   color: white;

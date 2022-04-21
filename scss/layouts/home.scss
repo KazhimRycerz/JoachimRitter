@@ -1,22 +1,7 @@
-body {
-    /* background-image: url(../../Images/1200px-Fingerprint_picture.png);
-    backdrop-filter: saturate(80%);
-    background-repeat:no-repeat;
-    background-size: 30vw; */
-    background-color: rgb(166, 206, 225);
-    /* background-position: 5vw 5vh;  */
-    
-}
+
 
 #fingerlines {
     position:absolute;
-    top: 5vh; left: 5vw;
-    a img {
-    visibility: visible;
-    width: 30vw;
-    position:absolute;
-    top: 0vh; left: 0vw;
-}
 }
 
 #basis {
@@ -120,7 +105,8 @@ main {
             object-fit: cover;
         }
         nav {
-            font-size: 1.3rem;
+            font-size: 1.5rem;
+            font-weight: 800;
             font-variant:small-caps;
             text-align: left;
             padding-right: 30px;
@@ -135,7 +121,7 @@ main {
     }
 }
 
-nav>ul>li>a:first-child:hover {
+nav>ul>li>a:hover {
     opacity: 1;
     z-index:10;
     color: white; 
