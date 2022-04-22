@@ -1,3 +1,13 @@
+.fingerlines #first {
+  opacity: 1;
+  animation: none;
+  z-index: 11;
+}
+
+#personalData {
+  color: white;
+}
+
 /* animation-play-state: running;
 animation-play-state: paused;
 */
