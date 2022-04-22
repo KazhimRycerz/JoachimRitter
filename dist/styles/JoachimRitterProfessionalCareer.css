@@ -330,18 +330,18 @@ main {
     width: 100%;
   }
 }
-.fingerlines #second {
+.fingerlines #third {
   opacity: 1;
   animation: none;
   z-index: 11;
 }
 
-#professionalPhilosophy {
-  color: goldenrod;
+#professionalCareer {
+  color: steelblue;
 }
 
 /* animation-play-state: running;
 animation-play-state: paused;
 */
 
-/*# sourceMappingURL=JoachimRitterProfessionalPhilosophy.css.map */
+/*# sourceMappingURL=JoachimRitterProfessionalCareer.css.map */

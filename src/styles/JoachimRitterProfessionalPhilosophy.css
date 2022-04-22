@@ -330,7 +330,6 @@ main {
     width: 100%;
   }
 }
-/* @import "./layouts/home.scss"; */
 .fingerlines #second {
   opacity: 1;
   animation: none;

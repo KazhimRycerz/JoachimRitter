@@ -105,7 +105,7 @@ main {
 }
 
 .pagehead h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: left;
   margin-left: 0vw;
   width: 60%;
@@ -115,7 +115,7 @@ main {
 }
 .pagehead p {
   text-align: left;
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 60%;
   position: relative;
   left: 40%;
@@ -239,7 +239,7 @@ main {
   margin-bottom: 20px;
   font-size: 1rem;
   font-family: "FoundSanBd";
-  font-variant: small-caps;
+  /* font-variant:small-caps; */
 }
 .sidenav ul li a {
   text-decoration: none;
@@ -251,6 +251,85 @@ main {
   color: white;
 }
 
+@media (max-width: 1200px) {
+  .content {
+    top: 15vh;
+  }
+
+  .pagehead {
+    margin-top: -50px;
+    margin-left: 30px;
+    width: 85%;
+  }
+  .pagehead h1 {
+    width: 100%;
+    left: 0vw;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .pagehead p {
+    width: 100%;
+    left: 0vw;
+    font-size: 1rem;
+  }
+
+  .fingerlines {
+    position: relative;
+    top: 0vh;
+    left: 5vw;
+  }
+  .fingerlines a img {
+    visibility: visible;
+    width: 20vw;
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+  }
+
+  .sidenav {
+    width: 5%;
+    position: relative;
+    top: 0vh;
+    left: 42%;
+  }
+  .sidenav ul li {
+    font-size: 0.65rem;
+  }
+  .sidenav ul > li > a:hover {
+    opacity: 1;
+    z-index: 10;
+    color: white;
+  }
+
+  .center {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 50%;
+    position: relative;
+    top: 0vh;
+    left: 40%;
+  }
+  .center article {
+    position: relative;
+    margin-bottom: 100px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 90%;
+    max-height: 40vh;
+    /*  max-height: 30%; */
+    overflow-y: scroll;
+  }
+  .center article h2 {
+    padding: 20px;
+    font-size: 1.5rem;
+  }
+  .center article p {
+    font-size: 0.75rem;
+    padding: 20px;
+    width: 100%;
+  }
+}
 .fingerlines #first {
   opacity: 1;
   animation: none;

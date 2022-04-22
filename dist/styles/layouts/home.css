@@ -79,14 +79,15 @@ $border-radius:*/
   top: 0vh;
 }
 .center img {
-  width: 30%;
-  height: 50%;
+  width: 10vw;
+  height: 20vh;
   object-fit: cover;
+  margin-top: 10px;
 }
 .center nav {
   font-size: 1.5rem;
-  font-weight: 800;
   font-variant: small-caps;
+  font-family: "FoundSanBd";
   text-align: left;
   padding-right: 30px;
 }
@@ -106,6 +107,11 @@ $border-radius:*/
   color: white;
 }
 
+@media (max-width: 1200px) {
+  .center nav {
+    font-size: 1rem;
+  }
+}
 /* animation-play-state: running;
 animation-play-state: paused;
 */
