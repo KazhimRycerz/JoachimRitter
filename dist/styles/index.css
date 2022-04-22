@@ -1,5 +1,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 @font-face {
   font-family: "VIA-Verlag";
   src: url("../fonts/VIA-Verlag.woff2") format("woff2"), url("../fonts/VIA-Verlag.otf") format("otf");
@@ -77,84 +79,119 @@ body {
   background-repeat: no-repeat;
   background-size: 100vw;
   background-color: rgb(166, 206, 225);
+  overflow: hidden;
 }
 
-#fingerlines {
-  position: absolute;
-  top: 33vh;
-  left: 10vw;
+header {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  /* border: solid; */
 }
-#fingerlines a img {
+header img {
+  position: relative;
+  left: 88%;
+  top: 100px;
+  width: 150px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: 0 0px;
+}
+
+main {
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+  top: 50px;
+}
+
+.pagehead h1 {
+  font-size: 4rem;
+  text-align: left;
+  margin-left: 0vw;
+  width: 60%;
+  position: relative;
+  left: 40%;
+  line-height: 4rem;
+}
+.pagehead p {
+  text-align: left;
+  font-size: 2rem;
+  width: 60%;
+  position: relative;
+  left: 40%;
+}
+
+.content {
+  position: relative;
+  top: 15vh;
+  height: 100%;
+  display: flex;
+  flex: row nowrap;
+}
+
+.fingerlines {
+  position: relative;
+  top: 0vh;
+  left: 5vw;
+}
+.fingerlines a img {
   visibility: visible;
   width: 25vw;
   position: absolute;
   top: 0vh;
   left: 0vw;
 }
-
-#fingerlines {
-  position: absolute;
-}
-
-#basis {
+.fingerlines #basis {
   opacity: 1;
   z-index: 1;
 }
-
-#first {
+.fingerlines #first {
   opacity: 0;
   animation: fadeinandout 2s infinite ease alternate-reverse;
   z-index: 11;
 }
-
-#second {
+.fingerlines #second {
   opacity: 0;
   animation: fadeinandout 2s infinite ease alternate-reverse;
   z-index: 9;
 }
-
-#third {
+.fingerlines #third {
   opacity: 0;
   animation: fadeinandout 2.5s infinite ease alternate-reverse;
   z-index: 9;
 }
-
-#fourth {
+.fingerlines #fourth {
   opacity: 0;
   animation: fadeinandout 1.5s infinite ease alternate-reverse;
   z-index: 9;
 }
-
-#fifth {
+.fingerlines #fifth {
   opacity: 0;
   animation: fadeinandout 1.3s infinite ease alternate-reverse;
   z-index: 9;
 }
-
-#sixth {
+.fingerlines #sixth {
   opacity: 0;
   animation: fadeinandout 3s infinite ease alternate-reverse;
   z-index: 9;
 }
-
-#seventh {
+.fingerlines #seventh {
   opacity: 0;
   animation: fadeinandout 1s infinite ease alternate-reverse;
   z-index: 9;
 }
-
-#eigth {
+.fingerlines #eigth {
   opacity: 0;
   animation: fadeinandout 2.1s infinite ease alternate-reverse;
   z-index: 9;
 }
-
-#ninth {
+.fingerlines #ninth {
   opacity: 0;
   animation: fadeinandout 2.7s infinite ease alternate-reverse;
   z-index: 9;
 }
-
 @keyframes fadeinandout {
   0% {
     opacity: 0;
@@ -163,57 +200,160 @@ body {
     opacity: 1;
   }
 }
-header {
-  width: 50vw;
-  position: relative;
-  left: 50vw;
-}
 
-main {
-  width: 40%;
+.center {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 50%;
   position: relative;
-  left: 45%;
-  top: 10vh;
+  top: 0vh;
+  left: 40%;
 }
-main h1 {
-  font-size: 4rem;
-  text-align: left;
-  margin-left: 0vw;
+.center article {
+  position: relative;
+  margin-bottom: 100px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  width: 90%;
+  max-height: 70%;
+  /*  max-height: 30%; */
+  overflow-y: scroll;
+}
+.center article h2 {
+  padding: 20px;
+}
+.center article p {
+  font-size: 1rem;
+  padding: 20px;
   width: 100%;
 }
-main p {
-  text-align: left;
-  font-size: 2rem;
-  width: 50vw;
+
+.sidenav {
+  width: 8%;
+  position: relative;
+  top: 0vh;
+  left: 42%;
+  height: 55vh;
 }
-main figure {
+.sidenav ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  font-family: "FoundSanBd";
+  font-variant: small-caps;
+}
+.sidenav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.sidenav ul > li > a:hover {
+  opacity: 1;
+  z-index: 10;
+  color: white;
+}
+
+@font-face {
+  font-family: "VIA-Verlag";
+  src: url("../fonts/VIA-Verlag.woff2") format("woff2"), url("../fonts/VIA-Verlag.otf") format("otf");
+}
+@font-face {
+  font-family: "BillboardShadow";
+  src: url("../fonts/Billboard/Billboard-Shadow.woff2") format("woff2"), url("../fonts/Billboard/Billboard-Shadow.otf") format("otf");
+}
+@font-face {
+  font-family: "Carbono";
+  src: url("../fonts/carbono/carbono.woff2") format("woff2"), url("../fonts/carbono/carbono.otf") format("otf");
+}
+@font-face {
+  font-family: "Vacaciones";
+  src: url("../fonts/vacaciones-outline/Vacaciones-font-ffp-defharo.woff2") format("woff2"), url("../fonts/vacaciones-outline/Vacaciones-font-ffp-defharo.otf") format("otf");
+}
+@font-face {
+  font-family: "CorporateDemi";
+  src: url("../fonts/CorporateSTOT-Dem.woff2") format("woff2"), url("../fonts/CorporateSTOT-Dem.otf") format("otf");
+}
+@font-face {
+  font-family: "CorporateReg";
+  src: url("../fonts/Corporate/CorporateSTOT-Reg.woff2") format("woff2"), url("../fonts/Corporate/CorporateSTOT-Reg.otf") format("otf");
+}
+@font-face {
+  font-family: "FallingSkyOu";
+  src: url("../fonts/Falling-Sky-Condensed-Outline/FallingSkyOu.woff2") format("woff2"), url("../fonts/Falling-Sky-Condensed-Outline/FallingSkyOu.otf") format("otf");
+}
+@font-face {
+  font-family: "ChalkLine";
+  src: url("../fonts/chalk_line_outline/ChalkLine-Outline.woff2") format("woff2"), url("../fonts/chalk_line_outline/ChalkLine-Outline.otf") format("otf");
+}
+@font-face {
+  font-family: "Rampart";
+  src: url("../fonts/Rampart_One/RampartOne-Regular.woff2") format("woff2"), url("../fonts/Rampart_One/RampartOne-Regular.otf") format("otf");
+}
+@font-face {
+  font-family: "Thunderlord";
+  src: url("../fonts/thunder_lord/ThunderLord.woff2") format("woff2"), url("../fonts/thunder_lord/ThunderLord.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanExpNorm";
+  src: url("../fonts/Foundry/FOUSANNO.woff2") format("woff2"), url("../fonts/Foundry/FOUSANNO.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanBd";
+  src: url("../fonts/Foundry/FOUSANBD.woff2") format("woff2"), url("../fonts/Foundry/FOUSANBD.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanExpMed";
+  src: url("../fonts/Foundry/FOUSANMD.woff2") format("woff2"), url("../fonts/Foundry/FOUSANMD.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanExBold";
+  src: url("../fonts/Foundry/FOUSANEB.woff2") format("woff2"), url("../fonts/Foundry/FOUSANEB.otf") format("otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* textsizes*/
+/*$medium: 4rem;
+$large: 10rem;
+$huge: 20rem;
+
+$border-radius:*/
+/*Mediasetting*/
+/* Fonts */
+/* logos */
+.center {
   display: flex;
   justify-content: space-between;
   gap: 30px;
   position: relative;
-  top: 12vh;
+  top: 0vh;
 }
-main figure img {
+.center img {
   width: 30%;
-  height: 30%;
+  height: 50%;
   object-fit: cover;
 }
-main figure nav {
+.center nav {
   font-size: 1.5rem;
   font-weight: 800;
   font-variant: small-caps;
   text-align: left;
   padding-right: 30px;
 }
-main figure nav ul li {
+.center nav ul li {
   list-style-type: none;
   margin-bottom: 20px;
+  font-family: "FoundSanExpNorm", sans-serif;
+  font-weight: lighter;
 }
-main figure nav ul li a {
+.center nav ul li a {
   text-decoration: none;
   color: black;
 }
-main figure nav ul > li > a:hover {
+.center nav ul > li > a:hover {
   opacity: 1;
   z-index: 10;
   color: white;

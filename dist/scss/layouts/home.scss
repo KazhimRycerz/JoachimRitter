@@ -1,108 +1,17 @@
+@import "../typo/typo.scss";
+@import "../reset/reset.scss";
+@import "../variables/variables.scss";
 
 
-#fingerlines {
-    position:absolute;
-}
-
-#basis {
-    opacity: 1;
-    z-index: 1; 
-}
-
-
-#first {
-    opacity: 0;
-    animation: fadeinandout 2.0s infinite ease alternate-reverse;
-    z-index: 11;
-}
-
-#second {
-    opacity: 0;
-    animation: fadeinandout 2s infinite ease alternate-reverse;
-    z-index:9;
-}
-#third {
-    opacity: 0;
-    animation: fadeinandout 2.5s infinite ease alternate-reverse;
-    z-index:9;
-}
-#fourth {
-    opacity: 0;
-    animation: fadeinandout 1.5s infinite ease alternate-reverse;
-    z-index:9;
-}
-#fifth {
-    opacity: 0;
-    animation: fadeinandout 1.3s infinite ease alternate-reverse;
-    z-index:9;
-}
-#sixth {
-    opacity: 0;
-    animation: fadeinandout 3s infinite ease alternate-reverse;
-    z-index:9;
-}
-#seventh {
-    opacity: 0;
-    animation: fadeinandout 1s infinite ease alternate-reverse;
-    z-index:9;
-}
-#eigth {
-    opacity: 0;
-    animation: fadeinandout 2.1s infinite ease alternate-reverse;
-    z-index:9;
-}
-#ninth {
-    opacity: 0;
-    animation: fadeinandout 2.7s infinite ease alternate-reverse;
-    z-index:9;
-}
-
-@keyframes fadeinandout {
-    0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-header {
-    width: 50vw;
-    position:relative;
-    left: 50vw;
-    
-    
-}
-
-
-main {
-    width: 40%;
-    position: relative;
-    left: 45%;
-    top: 10vh;
-    
-    
-    h1 {
-        font-size: 4rem;
-        text-align: left;
-        margin-left: 0vw;
-        width: 100%;
-    }
-    p {
-        text-align: left;
-        font-size: 2rem;
-        width: 50vw;
-    }
-    figure {
+     .center {
         display: flex;
         justify-content: space-between;
         gap: 30px;
         position: relative;
-        top: 12vh;
-        
+        top: 0vh;
         img {
             width: 30%;
-            height: 30%;
+            height: 50%;
             object-fit: cover;
         }
         nav {
@@ -114,6 +23,8 @@ main {
             ul li{
                 list-style-type: none;
                 margin-bottom: 20px;
+                font-family: $primary-font;
+                font-weight: lighter;
                 a {
                     text-decoration: none;
                     color: black;
@@ -126,7 +37,6 @@ main {
             }
         }
     }
-}
 
 
 
