@@ -3,12 +3,18 @@
 @import "../variables/variables.scss";
 
 body {
+    width: 100vw;
+    height: 100vh;
     font-family: $primary-font;
-    background-image: url(../Images/IMG_1839.PNG);
+    background-image: url(../Images/IMG_1839.PNG), linear-gradient(166deg, rgba(7,0,125,1) 0%, rgba(114,78,173,1) 50%, rgba(142,94,131,1) 70%, rgba(161,22,6,1) 100%);
     background-repeat:no-repeat;
     background-size: 100vw;
-    background-color: rgb(166, 206, 225);
     overflow: hidden;
+    /* >img {
+        position: absolute;
+        top: 0px;
+        width: 100vw;
+    } */
 }
 
 
@@ -16,6 +22,8 @@ header {
     width: 100%;
     height: 50px;
     position:relative;
+    margin-top: 5vh;
+    background: transparent;
     /* border: solid; */
     img {
         position: relative;
@@ -34,6 +42,7 @@ main {
     position: relative;
     margin: 0 auto;
     top: 50px;   
+    background: transparent;
 }
 
 .pagehead {
@@ -41,7 +50,7 @@ main {
     top: -3vh;
     width: 80vw;
     h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         text-align: left;
         margin-left: 0vw;
         width: 60%;
@@ -77,7 +86,6 @@ main {
     visibility: visible;
     width: 25vw;
     position:absolute;
-    top: 0vh; left: 0vw;
     }
     #basis {
         opacity: 1;
@@ -146,6 +154,9 @@ main {
     position: relative;
     top: 0vh;
     left: 37%;
+    nav>ul>li>a {
+        font-family: $primary-font-bold;
+    }
     article {
         position: relative;
         margin-bottom: 100px;
@@ -171,12 +182,11 @@ main {
     top: 0vh;
     left: 38%;
     height:  55vh;
-    ul li{
+    ul li {
         list-style-type: none;
         margin-bottom: 20px;
         font-size: 1rem;
         font-family: $primary-font-bold;
-        /* font-variant:small-caps; */
         a {
             text-decoration: none;
             color: black;
@@ -238,5 +248,8 @@ main {
             width: 100%;
         }
       }
+    }
+    .fingerlines a img {
+        width: 20vw;
     }
 }

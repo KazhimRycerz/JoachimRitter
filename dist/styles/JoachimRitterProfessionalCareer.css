@@ -72,18 +72,26 @@ $border-radius:*/
 /* Fonts */
 /* logos */
 body {
+  width: 100vw;
+  height: 100vh;
   font-family: "FoundSanExpNorm", sans-serif;
-  background-image: url(../Images/IMG_1839.PNG);
+  background-image: url(../Images/IMG_1839.PNG), linear-gradient(166deg, rgb(7, 0, 125) 0%, rgb(114, 78, 173) 50%, rgb(142, 94, 131) 70%, rgb(161, 22, 6) 100%);
   background-repeat: no-repeat;
   background-size: 100vw;
-  background-color: rgb(166, 206, 225);
   overflow: hidden;
+  /* >img {
+      position: absolute;
+      top: 0px;
+      width: 100vw;
+  } */
 }
 
 header {
   width: 100%;
   height: 50px;
   position: relative;
+  margin-top: 5vh;
+  background: transparent;
   /* border: solid; */
 }
 header img {
@@ -102,6 +110,7 @@ main {
   position: relative;
   margin: 0 auto;
   top: 50px;
+  background: transparent;
 }
 
 .pagehead {
@@ -110,7 +119,7 @@ main {
   width: 80vw;
 }
 .pagehead h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: left;
   margin-left: 0vw;
   width: 60%;
@@ -147,8 +156,6 @@ main {
   visibility: visible;
   width: 25vw;
   position: absolute;
-  top: 0vh;
-  left: 0vw;
 }
 .fingerlines #basis {
   opacity: 1;
@@ -217,6 +224,9 @@ main {
   top: 0vh;
   left: 37%;
 }
+.center nav > ul > li > a {
+  font-family: "FoundSanBd";
+}
 .center article {
   position: relative;
   margin-bottom: 100px;
@@ -248,7 +258,6 @@ main {
   margin-bottom: 20px;
   font-size: 1rem;
   font-family: "FoundSanBd";
-  /* font-variant:small-caps; */
 }
 .sidenav ul li a {
   text-decoration: none;
@@ -260,7 +269,7 @@ main {
   color: white;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   /*  .content {
        top: 15vh;
    } */
@@ -304,6 +313,10 @@ main {
     font-size: 0.75rem;
     padding: 20px;
     width: 100%;
+  }
+
+  .fingerlines a img {
+    width: 20vw;
   }
 }
 .fingerlines #third {
