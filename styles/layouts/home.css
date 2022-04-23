@@ -107,9 +107,9 @@ $border-radius:*/
   color: white;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   .center nav {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 }
 /* animation-play-state: running;
