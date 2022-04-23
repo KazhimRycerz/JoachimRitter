@@ -89,7 +89,7 @@ $border-radius:*/
   font-variant: small-caps;
   font-family: "FoundSanBd";
   text-align: left;
-  padding-right: 30px;
+  padding-right: 0px;
 }
 .center nav ul li {
   list-style-type: none;
