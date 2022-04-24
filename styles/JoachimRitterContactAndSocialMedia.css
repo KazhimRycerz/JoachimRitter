@@ -342,18 +342,18 @@ footer {
     right: 5.5vw;
   }
 }
-.fingerlines #fifth {
+.fingerlines #eigth {
   opacity: 1;
   animation: paused;
   z-index: 11;
 }
 
-.myFuture {
-  color: darkgreen;
+#contactAndSocialMedia {
+  color: rgb(230, 110, 70);
 }
 
 /* animation-play-state: running;
 animation-play-state: paused;
 */
 
-/*# sourceMappingURL=JoachimRittermyFuture.css.map */
+/*# sourceMappingURL=JoachimRitterContactAndSocialMedia.css.map */

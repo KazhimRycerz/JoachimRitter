@@ -1,16 +1,16 @@
 function lightTopicOn() {
   document.getElementsByClassName("personalData").style.color = "white";
   document.getElementById("first").style.animationPlayState = "paused";
-  document.getElementById("second").style.animationPlayState = "none";
-  document.getElementById("third").style.animationPlayState = "none";
-  document.getElementById("fourth").style.animationPlayState = "none";
-  document.getElementById("fifth").style.animationPlayState = "none";
-  document.getElementById("sixth").style.animationPlayState = "none";
-  document.getElementById("seventh").style.animationPlayState = "none";
-  document.getElementById("eigeht").style.animationPlayState = "none";
-  document.getElementById("ninth").style.animationPlayState = "none";
-  document.getElementById("first").style.animationPlayState = "none";
-  document.getElementById("first").style.opacity = "1";
+  document.getElementById("second").style.animationPlayState = "paused";
+  document.getElementById("third").style.animationPlayState = "paused";
+  document.getElementById("fourth").style.animationPlayState = "paused";
+  document.getElementById("fifth").style.animationPlayState = "paused";
+  document.getElementById("sixth").style.animationPlayState = "paused";
+  document.getElementById("seventh").style.animationPlayState = "paused";
+  document.getElementById("eigeht").style.animationPlayState = "paused";
+  document.getElementById("ninth").style.animationPlayState = "paused";
+  document.getElementById("first").style.animationPlayState = "paused";
+ /*  document.getElementById("first").style.opacity = "1"; */
 }
 
 function lightTopicOff() {
