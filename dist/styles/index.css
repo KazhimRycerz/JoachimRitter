@@ -81,6 +81,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100vw;
   overflow: hidden;
+  position: relative;
   /* >img {
       position: absolute;
       top: 0px;
@@ -96,7 +97,12 @@ header {
   background: transparent;
   /* border: solid; */
 }
-header img {
+header figure figcaption {
+  position: relative;
+  left: 88%;
+  top: 40px;
+}
+header figure img {
   position: relative;
   left: 88%;
   top: 5vh;
@@ -117,7 +123,7 @@ main {
 
 .pagehead {
   position: relative;
-  top: -8vh;
+  top: -5vh;
   width: 80vw;
 }
 .pagehead h1 {
@@ -169,42 +175,42 @@ main {
   z-index: 11;
 }
 .fingerlines #second {
-  opacity: 0;
+  opacity: 1;
   animation: fadeinandout 2s infinite ease alternate-reverse;
   z-index: 9;
 }
 .fingerlines #third {
-  opacity: 0;
+  opacity: 1;
   animation: fadeinandout 2.5s infinite ease alternate-reverse;
   z-index: 9;
 }
 .fingerlines #fourth {
-  opacity: 0;
+  opacity: 1;
   animation: fadeinandout 1.5s infinite ease alternate-reverse;
   z-index: 9;
 }
 .fingerlines #fifth {
-  opacity: 0;
+  opacity: 1;
   animation: fadeinandout 1.3s infinite ease alternate-reverse;
   z-index: 9;
 }
 .fingerlines #sixth {
-  opacity: 0;
+  opacity: 1;
   animation: fadeinandout 3s infinite ease alternate-reverse;
   z-index: 9;
 }
 .fingerlines #seventh {
-  opacity: 0;
+  opacity: 1;
   animation: fadeinandout 1s infinite ease alternate-reverse;
   z-index: 9;
 }
 .fingerlines #eigth {
-  opacity: 0;
-  animation: fadeinandout 2.1s infinite ease alternate-reverse;
+  opacity: 1;
+  animation: fadeinandout 2.2s infinite ease alternate-reverse;
   z-index: 9;
 }
 .fingerlines #ninth {
-  opacity: 0;
+  opacity: 1;
   animation: fadeinandout 2.7s infinite ease alternate-reverse;
   z-index: 9;
 }
@@ -238,6 +244,8 @@ main {
   max-height: 50vh;
   /*  max-height: 30%; */
   overflow-y: scroll;
+  scrollbar-base-color: transparent;
+  scrollbar-color: black;
 }
 .center article h2 {
   padding: 20px;
@@ -271,15 +279,19 @@ main {
   color: white;
 }
 
+footer {
+  font-size: 1rem;
+  position: absolute;
+  bottom: 12vh;
+  right: 4%;
+}
+
 @media (max-width: 1250px) {
   /*  .content {
        top: 15vh;
    } */
   .pagehead {
-    /*  margin-top: -20px;
-     margin-left: 30px;
-     left: 40%;
-     width:  50%; */
+    top: -8vh;
   }
   .pagehead h1 {
     /* width: 100%;
@@ -319,6 +331,13 @@ main {
 
   .fingerlines a img {
     width: 20vw;
+  }
+
+  footer {
+    font-size: 0.6rem;
+    position: absolute;
+    bottom: 11vh;
+    right: 5vw;
   }
 }
 @font-face {
@@ -410,13 +429,15 @@ $border-radius:*/
   /* font-variant:small-caps; */
   font-family: "FoundSanBd";
   text-align: left;
-  padding-right: 0px;
+  padding-right: 10px;
+  width: 100%;
 }
 .center nav ul li {
   list-style-type: none;
   margin-bottom: 20px;
   font-family: "FoundSanExpNorm", sans-serif;
   font-weight: lighter;
+  width: 90%;
 }
 .center nav ul li a {
   text-decoration: none;

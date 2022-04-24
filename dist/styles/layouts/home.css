@@ -89,13 +89,15 @@ $border-radius:*/
   /* font-variant:small-caps; */
   font-family: "FoundSanBd";
   text-align: left;
-  padding-right: 0px;
+  padding-right: 10px;
+  width: 100%;
 }
 .center nav ul li {
   list-style-type: none;
   margin-bottom: 20px;
   font-family: "FoundSanExpNorm", sans-serif;
   font-weight: lighter;
+  width: 90%;
 }
 .center nav ul li a {
   text-decoration: none;
