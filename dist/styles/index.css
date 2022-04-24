@@ -99,7 +99,7 @@ header {
 header img {
   position: relative;
   left: 88%;
-  top: 80px;
+  top: 5vh;
   width: 8vw;
   aspect-ratio: 1;
   object-fit: cover;
@@ -117,7 +117,7 @@ main {
 
 .pagehead {
   position: relative;
-  top: -3vh;
+  top: -8vh;
   width: 80vw;
 }
 .pagehead h1 {
@@ -139,7 +139,7 @@ main {
 
 .content {
   position: absolute;
-  top: 25vh;
+  top: 20vh;
   height: auto;
   width: 100%;
   display: flex;
@@ -407,7 +407,7 @@ $border-radius:*/
 }
 .center nav {
   font-size: 1.5rem;
-  font-variant: small-caps;
+  /* font-variant:small-caps; */
   font-family: "FoundSanBd";
   text-align: left;
   padding-right: 0px;
@@ -430,7 +430,7 @@ $border-radius:*/
 
 @media (max-width: 1250px) {
   .center nav {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 /* animation-play-state: running;

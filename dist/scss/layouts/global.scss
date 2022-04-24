@@ -28,7 +28,7 @@ header {
     img {
         position: relative;
         left: 88%;
-        top: 80px;
+        top: 5vh;
         width: 8vw;
         aspect-ratio: 1;
         object-fit: cover;
@@ -47,7 +47,7 @@ main {
 
 .pagehead {
     position: relative;
-    top: -3vh;
+    top: -8vh;
     width: 80vw;
     h1 {
         font-size: 3rem;
@@ -69,7 +69,7 @@ main {
 
 .content {
     position: absolute;
-    top: 25vh;
+    top: 20vh;
     height: auto;
     width: 100%;
     display: flex;
