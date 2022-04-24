@@ -344,11 +344,11 @@ footer {
 }
 .fingerlines #fifth {
   opacity: 1;
-  animation: none;
+  animation: paused;
   z-index: 11;
 }
 
-#myFuture {
+.myFuture {
   color: darkgreen;
 }
 

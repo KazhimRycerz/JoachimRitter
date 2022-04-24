@@ -1,10 +1,10 @@
-.fingerlines #fourth {
+.fingerlines #eigth {
   opacity: 1;
   animation: paused;
   z-index: 11;
 }
 
-.experienceAndKnowledge {
+#contactAndSocialMedia {
   color: rgb(230, 110, 70);
 }
 
@@ -12,4 +12,4 @@
 animation-play-state: paused;
 */
 
-/*# sourceMappingURL=experienceAndKnowledge.css.map */
+/*# sourceMappingURL=contactAndSocialMedia.css.map */
