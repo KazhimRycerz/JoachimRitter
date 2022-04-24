@@ -98,7 +98,9 @@ header {
 header figure figcaption {
   position: relative;
   left: 88%;
-  top: 40px;
+  top: 50px;
+  font-family: "FoundSanBd";
+  font-size: 0.75rem;
 }
 header figure img {
   position: relative;
@@ -135,10 +137,12 @@ main {
 }
 .pagehead p {
   text-align: left;
+  font-family: "FoundSanBd";
   font-size: 1.5rem;
   width: 60%;
   position: relative;
   left: 33vw;
+  margin-top: 10px;
 }
 
 .content {
@@ -278,9 +282,9 @@ main {
 }
 
 footer {
-  font-size: 1rem;
+  font-size: 0.75rem;
   position: absolute;
-  bottom: 12vh;
+  bottom: 15vh;
   right: 4%;
 }
 
@@ -334,7 +338,7 @@ footer {
   footer {
     font-size: 0.6rem;
     position: absolute;
-    bottom: 11vh;
+    bottom: 15vh;
     right: 5vw;
   }
 }
