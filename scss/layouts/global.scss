@@ -10,6 +10,7 @@ body {
     background-repeat:no-repeat;
     background-size: 100vw;
     overflow: hidden;
+    position: relative;
     /* >img {
         position: absolute;
         top: 0px;
@@ -25,7 +26,12 @@ header {
     margin-top: 5vh;
     background: transparent;
     /* border: solid; */
-    img {
+    figure figcaption {
+        position: relative;
+        left: 88%;
+        top: 40px;
+    }
+    figure img {
         position: relative;
         left: 88%;
         top: 5vh;
@@ -47,7 +53,7 @@ main {
 
 .pagehead {
     position: relative;
-    top: -8vh;
+    top: -5vh;
     width: 80vw;
     h1 {
         font-size: 3rem;
@@ -98,42 +104,42 @@ main {
     }
     
     #second {
-        opacity: 0;
+        opacity: 1;
         animation: fadeinandout 2s infinite ease alternate-reverse;
         z-index:9;
     }
     #third {
-        opacity: 0;
+        opacity: 1;
         animation: fadeinandout 2.5s infinite ease alternate-reverse;
         z-index:9;
     }
     #fourth {
-        opacity: 0;
+        opacity: 1;
         animation: fadeinandout 1.5s infinite ease alternate-reverse;
         z-index:9;
     }
     #fifth {
-        opacity: 0;
+        opacity: 1;
         animation: fadeinandout 1.3s infinite ease alternate-reverse;
         z-index:9;
     }
     #sixth {
-        opacity: 0;
+        opacity: 1;
         animation: fadeinandout 3s infinite ease alternate-reverse;
         z-index:9;
     }
     #seventh {
-        opacity: 0;
+        opacity: 1;
         animation: fadeinandout 1s infinite ease alternate-reverse;
         z-index:9;
     }
     #eigth {
-        opacity: 0;
-        animation: fadeinandout 2.1s infinite ease alternate-reverse;
+        opacity: 1;
+        animation: fadeinandout 2.2s infinite ease alternate-reverse;
         z-index:9;
     }
     #ninth {
-        opacity: 0;
+        opacity: 1;
         animation: fadeinandout 2.7s infinite ease alternate-reverse;
         z-index:9;
     }
@@ -166,6 +172,8 @@ main {
         max-height: 50vh;
        /*  max-height: 30%; */
         overflow-y: scroll;
+        scrollbar-base-color: transparent;
+        scrollbar-color: black;
         h2 {
             padding: 20px;
         }
@@ -199,6 +207,12 @@ main {
     }
 }
 
+footer {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 12vh;
+    right: 4%;
+}
 
 
 
@@ -208,10 +222,7 @@ main {
     } */
 
     .pagehead {
-       /*  margin-top: -20px;
-        margin-left: 30px;
-        left: 40%;
-        width:  50%; */
+        top: -8vh;
     h1 {
       /* width: 100%;
       left: 0vw; */
@@ -251,5 +262,12 @@ main {
     }
     .fingerlines a img {
         width: 20vw;
+    }
+    footer {
+        font-size: 0.6rem;
+        position: absolute;
+        bottom: 11vh;
+        right: 5vw;
+        
     }
 }

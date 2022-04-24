@@ -20,12 +20,14 @@
             /* font-variant:small-caps; */
             font-family: $primary-font-bold;
             text-align: left;
-            padding-right: 0px;
+            padding-right: 10px;
+            width: 100%;
             ul li{
                 list-style-type: none;
                 margin-bottom: 20px;
                 font-family: $primary-font;
                 font-weight: lighter;
+                width: 90%;
                 a {
                     text-decoration: none;
                     color: black;
