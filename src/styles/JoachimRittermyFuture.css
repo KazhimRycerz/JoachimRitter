@@ -342,18 +342,18 @@ footer {
     right: 5.5vw;
   }
 }
-.fingerlines #first {
+.fingerlines #fifth {
   opacity: 1;
   animation: none;
   z-index: 11;
 }
 
-#personalData {
-  color: white;
+#myFuture {
+  color: darkgreen;
 }
 
 /* animation-play-state: running;
 animation-play-state: paused;
 */
 
-/*# sourceMappingURL=JoachimRitterPersonalData.css.map */
+/*# sourceMappingURL=JoachimRittermyFuture.css.map */

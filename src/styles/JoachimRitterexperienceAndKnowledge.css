@@ -342,18 +342,18 @@ footer {
     right: 5.5vw;
   }
 }
-.fingerlines #first {
+.fingerlines #fourth {
   opacity: 1;
   animation: none;
   z-index: 11;
 }
 
-#personalData {
-  color: white;
+#experienceAndKnowledge {
+  color: rgb(230, 110, 70);
 }
 
 /* animation-play-state: running;
 animation-play-state: paused;
 */
 
-/*# sourceMappingURL=JoachimRitterPersonalData.css.map */
+/*# sourceMappingURL=JoachimRitterexperienceAndKnowledge.css.map */
