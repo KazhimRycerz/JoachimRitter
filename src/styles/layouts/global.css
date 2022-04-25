@@ -123,7 +123,7 @@ main {
 
 .pagehead {
   position: relative;
-  top: -8vh;
+  top: -70px;
   width: 78vw;
 }
 .pagehead h1 {
@@ -292,9 +292,6 @@ footer {
   /*  .content {
        top: 15vh;
    } */
-  .pagehead {
-    top: -8vh;
-  }
   .pagehead h1 {
     /* width: 100%;
     left: 0vw; */
