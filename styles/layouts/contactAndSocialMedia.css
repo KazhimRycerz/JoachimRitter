@@ -1,11 +1,11 @@
-.fingerlines #eigth {
+.fingerlines #eight {
   opacity: 1;
   animation: paused;
   z-index: 11;
 }
 
-#contactAndSocialMedia {
-  color: rgb(230, 110, 70);
+.contactAndSocialMedia {
+  color: goldenrod;
 }
 
 /* animation-play-state: running;
