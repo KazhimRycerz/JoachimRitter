@@ -1,5 +1,5 @@
 
-.fingerlines #eigth {
+#eight {
     opacity: 1;
     animation: paused; //running
     z-index: 11;
@@ -9,6 +9,12 @@
       color:goldenrod;
   }
 
+  .center article ul li a{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    border: solid;
+  }
 
 
 /* animation-play-state: running;

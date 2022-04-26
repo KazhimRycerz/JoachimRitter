@@ -65,10 +65,11 @@ main {
         position: relative;
         left: 33vw;
         line-height: 4rem;
+        font-family: $primary-font;
     }
     p {
         text-align: left;
-        font-family: $primary-font-bold;
+        font-family: $primary-font;
         font-size: 1.5rem;
         width: 60%;
         position: relative;
@@ -241,8 +242,10 @@ footer {
     }
 
     .sidenav ul li {
-       font-size: 0.75rem;
+       font-size: 0.75em;
+       margin-bottom: 15px;
     }
+
     .center {
       article {
         position: relative;
@@ -270,8 +273,92 @@ footer {
     footer {
         font-size: 0.6rem;
         position: absolute;
-        bottom: 15vh;
+        top: 80vh;
         right: 5.5vw;
         
     }
+    .content {
+        top: 15vh;
+        height: auto;
+    }
 }
+
+@media (max-width: $tablet){
+    .content {
+         top: 15vh;
+     }
+ 
+     .pagehead {
+        h1 {
+       /* width: 100%;
+       left: 0vw; */
+       font-size: 2.0rem;
+       line-height: 2.5rem;
+        }
+        p {
+        /* width: 100%;
+        left: 0vw; */
+        font-size: 0.5rem;
+        }
+     }
+ 
+     .sidenav ul li {
+        font-size: 0.5rem;
+        a {
+        margin-bottom: 20px;
+    }
+}
+     .center {
+       article {
+         position: relative;
+         margin-bottom: 100px;
+         background: rgba(255, 255, 255, 0.5);
+         border-radius: 10px;
+         width: 90%;
+         max-height: 50vh;
+         /*  max-height: 30%; */
+         overflow-y: scroll;
+         h2 {
+             padding: 20px;
+             font-size: 1.5rem;;
+         }
+         p {
+             font-size: 0.75rem;
+             padding: 20px;
+             width: 100%;
+         }
+       }
+     }
+     .fingerlines a img {
+         width: 20vw;
+     }
+     footer {
+         font-size: 0.6rem;
+         position: absolute;
+         bottom: 15vh;
+         top: 58.5vw;
+         
+     }
+     .content {
+        position: absolute;
+        top: 5vh;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex: row nowrap;    
+        /* * {
+            border: solid red;
+        }  */   
+    }
+    header {
+        
+        margin-top: 5vh;
+    
+        figure figcaption {
+            position: relative;
+            left: 88%;
+            top: 30px;
+            font-family: $primary-font-bold; 
+            font-size: 0.5rem;
+        }}
+ }

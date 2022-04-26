@@ -1,4 +1,4 @@
-.fingerlines #eigth {
+#eight {
   opacity: 1;
   animation: paused;
   z-index: 11;
@@ -6,6 +6,13 @@
 
 .contactAndSocialMedia {
   color: goldenrod;
+}
+
+.center article ul li a {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  border: solid;
 }
 
 /* animation-play-state: running;

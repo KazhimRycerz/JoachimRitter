@@ -136,10 +136,11 @@ main {
   position: relative;
   left: 33vw;
   line-height: 4rem;
+  font-family: "FoundSanExpNorm", sans-serif;
 }
 .pagehead p {
   text-align: left;
-  font-family: "FoundSanBd";
+  font-family: "FoundSanExpNorm", sans-serif;
   font-size: 1.5rem;
   width: 60%;
   position: relative;
@@ -306,7 +307,68 @@ footer {
   }
 
   .sidenav ul li {
+    font-size: 0.75em;
+    margin-bottom: 15px;
+  }
+
+  .center article {
+    position: relative;
+    margin-bottom: 100px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 90%;
+    max-height: 50vh;
+    /*  max-height: 30%; */
+    overflow-y: scroll;
+  }
+  .center article h2 {
+    padding: 20px;
+    font-size: 1.5rem;
+  }
+  .center article p {
     font-size: 0.75rem;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .fingerlines a img {
+    width: 20vw;
+  }
+
+  footer {
+    font-size: 0.6rem;
+    position: absolute;
+    top: 80vh;
+    right: 5.5vw;
+  }
+
+  .content {
+    top: 15vh;
+    height: auto;
+  }
+}
+@media (max-width: 870px) {
+  .content {
+    top: 15vh;
+  }
+
+  .pagehead h1 {
+    /* width: 100%;
+    left: 0vw; */
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .pagehead p {
+    /* width: 100%;
+    left: 0vw; */
+    font-size: 0.5rem;
+  }
+
+  .sidenav ul li {
+    font-size: 0.5rem;
+  }
+  .sidenav ul li a {
+    margin-bottom: 20px;
   }
 
   .center article {
@@ -337,7 +399,30 @@ footer {
     font-size: 0.6rem;
     position: absolute;
     bottom: 15vh;
-    right: 5.5vw;
+    top: 58.5vw;
+  }
+
+  .content {
+    position: absolute;
+    top: 5vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex: row nowrap;
+    /* * {
+        border: solid red;
+    }  */
+  }
+
+  header {
+    margin-top: 5vh;
+  }
+  header figure figcaption {
+    position: relative;
+    left: 88%;
+    top: 30px;
+    font-family: "FoundSanBd";
+    font-size: 0.5rem;
   }
 }
 @font-face {
@@ -462,11 +547,56 @@ $border-radius:*/
 .sidenav ul li a {
   text-decoration: none;
   color: black;
+  font-size: 2.2rem;
+}
+.sidenav ul li a:hover {
+  transform: scale(2);
 }
 
 @media (max-width: 1250px) {
   .center nav {
     font-size: 1.2rem;
+  }
+
+  .sidenav ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  .sidenav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+  }
+  .sidenav ul li a:hover {
+    transform: scale(2);
+    color: white;
+  }
+}
+@media (max-width: 870px) {
+  .center nav {
+    font-size: 1.2rem;
+  }
+  .center nav ul li {
+    margin-bottom: 10px;
+  }
+  .center nav ul li a {
+    font-size: 0.8rem;
+  }
+
+  .sidenav ul li {
+    list-style-type: none;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 2.2rem;
+  }
+  .sidenav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+  }
+  .sidenav ul li a:hover {
+    transform: scale(2);
   }
 }
 /* animation-play-state: running;
