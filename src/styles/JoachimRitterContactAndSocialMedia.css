@@ -339,13 +339,13 @@ footer {
     right: 5.5vw;
   }
 }
-.fingerlines #eight {
+.fingerlines #eigth {
   opacity: 1;
   animation: paused;
   z-index: 11;
 }
 
-.contactAndSocialMedia {
+#contactAndSocialMedia {
   color: goldenrod;
 }
 
