@@ -31,12 +31,29 @@
                 a {
                     text-decoration: none;
                     color: black;
+                    p {
+                        display: inline;
+                        color: white;
+                    }
                 }
             }
             ul>li>a:hover {
                 opacity: 1;
                 z-index:10;
                 color: white; 
+            }
+        }
+    }
+    .sidenav {
+        
+        ul li {
+            list-style-type: none;
+            margin-bottom: 20px;
+            font-size: 2.2rem;
+            font-family: $primary-font-bold;
+            a {
+                text-decoration: none;
+                color: black;
             }
         }
     }
