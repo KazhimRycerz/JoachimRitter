@@ -103,10 +103,25 @@ $border-radius:*/
   text-decoration: none;
   color: black;
 }
+.center nav ul li a p {
+  display: inline;
+  color: white;
+}
 .center nav ul > li > a:hover {
   opacity: 1;
   z-index: 10;
   color: white;
+}
+
+.sidenav ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+  font-family: "FoundSanBd";
+}
+.sidenav ul li a {
+  text-decoration: none;
+  color: black;
 }
 
 @media (max-width: 1250px) {
