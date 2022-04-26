@@ -54,6 +54,10 @@
             a {
                 text-decoration: none;
                 color: black;
+                font-size: 2.2rem;
+            }
+            a:hover {
+                transform: scale(2);
             }
         }
     }
@@ -62,7 +66,53 @@
         .center nav {
           font-size: 1.2rem;
         }
+        .sidenav {
+            ul li {
+                list-style-type: none;
+                margin-bottom: 10px;
+                
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 2rem;
+                }
+                a:hover {
+                    transform: scale(2);
+                    color: white;
+                }
+            }
+            }
+    }
+
+    @media (max-width: $tablet){
+        .center nav {
+          font-size: 1.2rem;
+          ul li {
+            margin-bottom: 10px;
+            a {
+                font-size: 0.8rem;
+            }
+        }
+        }   
         
+        .sidenav {
+            ul li {
+                list-style-type: none;
+                height: 30px;
+                margin: 0px;
+                padding: 0px;
+                font-size: 2.2rem;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 1rem;
+                }
+                a:hover {
+                    transform: scale(2);
+                    
+                }
+            }
+        }
     }
 
 /* animation-play-state: running;
