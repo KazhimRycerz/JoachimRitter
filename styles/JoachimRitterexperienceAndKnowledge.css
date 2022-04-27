@@ -9,6 +9,10 @@
   src: url("../fonts/Billboard/Billboard-Shadow.woff2") format("woff2"), url("../fonts/Billboard/Billboard-Shadow.otf") format("otf");
 }
 @font-face {
+  font-family: "TwoFold";
+  src: url("../fonts/TWOFOLD_uncomplete_DeSigN.woff2") format("woff2"), url("../fonts/carbono/carbono.otf") format("otf");
+}
+@font-face {
   font-family: "Carbono";
   src: url("../fonts/carbono/carbono.woff2") format("woff2"), url("../fonts/carbono/carbono.otf") format("otf");
 }
@@ -85,6 +89,7 @@ body {
       top: 0px;
       width: 100vw;
   } */
+  cursor: url(../Images/finger-print-outline.svg);
 }
 
 header {
@@ -127,6 +132,7 @@ main {
   width: 78vw;
 }
 .pagehead h1 {
+  font-family: "FoundSanBd";
   font-size: 3rem;
   text-align: left;
   margin-left: 0vw;
@@ -134,7 +140,6 @@ main {
   position: relative;
   left: 33vw;
   line-height: 4rem;
-  font-family: "FoundSanExpNorm", sans-serif;
 }
 .pagehead p {
   text-align: left;
@@ -174,7 +179,7 @@ main {
 .fingerlines #first {
   opacity: 1;
   animation: fadeinandout 2s infinite ease alternate-reverse;
-  z-index: 11;
+  z-index: 9;
 }
 .fingerlines #second {
   opacity: 1;
@@ -253,7 +258,7 @@ main {
   padding: 20px;
 }
 .center article p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 20px;
   width: 100%;
 }
@@ -423,14 +428,14 @@ footer {
     font-size: 0.5rem;
   }
 }
-.fingerlines #fifth {
+.fifth {
   opacity: 1;
   animation: paused;
   z-index: 11;
 }
 
-.experienceAndKnowledge {
-  color: rgb(230, 110, 70);
+#experienceAndKnowledge {
+  color: rgb(195, 70, 30);
 }
 
 /*# sourceMappingURL=JoachimRitterexperienceAndKnowledge.css.map */

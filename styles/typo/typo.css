@@ -9,6 +9,10 @@
   src: url("../fonts/Billboard/Billboard-Shadow.woff2") format("woff2"), url("../fonts/Billboard/Billboard-Shadow.otf") format("otf");
 }
 @font-face {
+  font-family: "TwoFold";
+  src: url("../fonts/TWOFOLD_uncomplete_DeSigN.woff2") format("woff2"), url("../fonts/carbono/carbono.otf") format("otf");
+}
+@font-face {
   font-family: "Carbono";
   src: url("../fonts/carbono/carbono.woff2") format("woff2"), url("../fonts/carbono/carbono.otf") format("otf");
 }
