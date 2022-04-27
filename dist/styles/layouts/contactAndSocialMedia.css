@@ -1,18 +1,28 @@
-#eight {
+.eigth {
   opacity: 1;
   animation: paused;
   z-index: 11;
 }
 
-.contactAndSocialMedia {
+#contactAndSocialMedia {
   color: goldenrod;
 }
 
-.center article ul li a {
+#centerSocialMedia article ul {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: center;
-  border: solid;
+  cursor: url(../Images/finger-print-outline.svg);
+}
+#centerSocialMedia article ul li {
+  margin-left: 20px;
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+#centerSocialMedia article ul li a, #centerSocialMedia article ul li p {
+  display: inline;
+  color: black;
+  align-items: center;
 }
 
 /* animation-play-state: running;

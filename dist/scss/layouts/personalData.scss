@@ -1,13 +1,18 @@
 
 
-.fingerlines #first {
+.first {
     opacity: 1;
     animation: paused;
     z-index: 11;
   }
 
-.personalData {
+#personalData {
     color: white;
+  }
+
+  .center article p {
+   padding: 0 0 0 20px;
+   margin-bottom: 10px;
   }
 
 

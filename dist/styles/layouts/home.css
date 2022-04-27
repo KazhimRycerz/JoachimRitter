@@ -9,6 +9,10 @@
   src: url("../fonts/Billboard/Billboard-Shadow.woff2") format("woff2"), url("../fonts/Billboard/Billboard-Shadow.otf") format("otf");
 }
 @font-face {
+  font-family: "TwoFold";
+  src: url("../fonts/TWOFOLD_uncomplete_DeSigN.woff2") format("woff2"), url("../fonts/carbono/carbono.otf") format("otf");
+}
+@font-face {
   font-family: "Carbono";
   src: url("../fonts/carbono/carbono.woff2") format("woff2"), url("../fonts/carbono/carbono.otf") format("otf");
 }
@@ -100,14 +104,14 @@ $border-radius:*/
   width: 90%;
 }
 .center nav ul li a {
-  text-decoration: none;
   color: black;
 }
 .center nav ul li a p {
   display: inline;
   color: white;
+  text-decoration: none;
 }
-.center nav ul > li > a:hover {
+.center nav ul li a:hover {
   opacity: 1;
   z-index: 10;
   color: white;
