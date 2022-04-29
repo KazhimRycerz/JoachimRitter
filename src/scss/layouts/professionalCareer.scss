@@ -6,9 +6,18 @@
   }
 
   #professionalCareer {
-      color:rgb(70, 76, 180);
+      color:rgb(60, 85, 185);
   }
 
+  .center article {
+    /* background-color: rgba(60, 85, 185, 0.2); */
+    h2 {
+      background: linear-gradient(rgba(60, 85, 185, 0.3), rgba(60, 85, 185, 0.05));
+      }
+      p {
+        background: rgba(60, 85, 185, 0.05);
+      }
+  }
 
 
 /* animation-play-state: running;

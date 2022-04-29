@@ -5,7 +5,7 @@
 }
 
 #contactAndSocialMedia {
-  color: goldenrod;
+  color: rgb(250, 200, 80);
 }
 
 #centerSocialMedia article ul {
@@ -23,6 +23,10 @@
   display: inline;
   color: black;
   align-items: center;
+}
+
+.center article {
+  background-color: rgba(218, 165, 32, 0.2);
 }
 
 /* animation-play-state: running;

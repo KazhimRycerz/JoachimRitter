@@ -1,3 +1,6 @@
+@import "../typo/typo.scss";
+@import "../reset/reset.scss";
+@import "../variables/variables.scss";
 
 .second {
     opacity: 1;
@@ -6,10 +9,18 @@
   }
 
   #professionalPhilosophy {
-    color: goldenrod;   
+    color: rgb(250, 200, 80);   
   }
 
-
+  .center article {
+    /* background: rgba(250, 200, 80, 0.2); */
+    h2 {
+    background: linear-gradient(rgba(250, 200, 80, 0.5), rgba(250, 200, 80, 0.2));
+    }
+    p {
+      background: rgba(250, 200, 80, 0.2);
+    }
+  }
 
 /* animation-play-state: running;
 animation-play-state: paused;

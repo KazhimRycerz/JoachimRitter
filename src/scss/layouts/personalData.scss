@@ -10,9 +10,14 @@
     color: white;
   }
 
-  .center article p {
-   padding: 0 0 0 20px;
-   margin-bottom: 10px;
+.center article {
+    /* background-color: rgba(255,255,255, 0.2); */
+    h2 {
+      background: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.1));
+      }
+    p {
+        background: rgba(255,255,255, 0.2);
+      }
   }
 
 
