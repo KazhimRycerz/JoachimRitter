@@ -16,17 +16,25 @@
 }
 #centerSocialMedia article ul li {
   margin-left: 20px;
-  list-style-type: none;
   font-size: 1.5rem;
+  list-style-type: none;
 }
 #centerSocialMedia article ul li a, #centerSocialMedia article ul li p {
+  text-decoration: none;
   display: inline;
   color: black;
   align-items: center;
 }
 
 .center article {
-  background-color: rgba(218, 165, 32, 0.2);
+  /*  background-color: rgba(218, 165, 32, 0.2); */
+  height: 100%;
+}
+.center article h2 {
+  background: linear-gradient(rgba(250, 200, 80, 0.5), rgba(250, 200, 80, 0.2));
+}
+.center article ul {
+  background: rgba(250, 200, 80, 0.2);
 }
 
 /* animation-play-state: running;

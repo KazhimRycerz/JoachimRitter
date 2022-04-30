@@ -61,16 +61,16 @@ main {
     top: -70px;
     width: 78vw;
     h1 {
-        font-family: $primary-font-bold;
+        font-family: "TwoFold";
+        text-transform: uppercase;
+        font-weight: 100;
         font-size: 3rem;
         text-align: left;
         margin-left: 0vw;
         width: 60%;
         position: relative;
         left: 33vw;
-        line-height: 4rem;
-        text-shadow: 0.5rem 0.5rem 3rem;;
-        
+        line-height: 4rem;        
     }
     p {
         text-align: left;
@@ -203,20 +203,38 @@ main {
     left: 42%;
     height:  450px;
     /* background: rgba(255, 255, 255, 0.5); */
-    ul li {
+    ul {
+        li {
         list-style-type: none;
         margin-bottom: 20px;
         font-size: 1rem;
         font-family: $primary-font-bold;
-        a {
-            text-decoration: none;
-            color: black;
+            a {
+                text-decoration: none;
+                color: black;
+            }
         }
-    }
-    ul>li>a:hover {
-        /* opacity: 1; */
-        z-index:10;
-        color: white; 
+        li:first-child:hover a{
+           color: black; 
+        }
+        li:nth-child(2):hover a{
+            color: white; 
+        }
+        li:nth-child(3):hover a{
+            color: rgb(250, 200, 80); 
+        }
+        li:nth-child(4):hover a {
+            color: rgb(60, 85, 185); 
+        }
+        li:nth-child(5):hover a {
+            color: rgb(195, 70, 30); 
+        }
+        li:nth-child(6):hover a {
+            color: darkgreen; 
+        }
+        li:nth-child(7):hover a {
+            color: rgb(250, 200, 80); 
+        }
     }
 }
 

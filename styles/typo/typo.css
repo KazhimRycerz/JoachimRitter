@@ -5,8 +5,8 @@
   src: url("../fonts/VIA-Verlag.woff2") format("woff2"), url("../fonts/VIA-Verlag.otf") format("otf");
 }
 @font-face {
-  font-family: "BillboardShadow";
-  src: url("../fonts/Billboard/Billboard-Shadow.woff2") format("woff2"), url("../fonts/Billboard/Billboard-Shadow.otf") format("otf");
+  font-family: "Frederica";
+  src: url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.woff2") format("woff2"), url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.otf") format("otf");
 }
 @font-face {
   font-family: "TwoFold";
@@ -37,8 +37,8 @@
   src: url("../fonts/chalk_line_outline/ChalkLine-Outline.woff2") format("woff2"), url("../fonts/chalk_line_outline/ChalkLine-Outline.otf") format("otf");
 }
 @font-face {
-  font-family: "Rampart";
-  src: url("../fonts/Rampart_One/RampartOne-Regular.woff2") format("woff2"), url("../fonts/Rampart_One/RampartOne-Regular.otf") format("otf");
+  font-family: "DirtyFont";
+  src: url("../fonts/dirty-headline/Dirty Headline.woff2") format("woff2"), url("../fonts/dirty-headline/Dirty Headline.ttf") format("ttf");
 }
 @font-face {
   font-family: "Thunderlord";

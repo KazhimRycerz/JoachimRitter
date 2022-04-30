@@ -5,8 +5,8 @@
   src: url("../fonts/VIA-Verlag.woff2") format("woff2"), url("../fonts/VIA-Verlag.otf") format("otf");
 }
 @font-face {
-  font-family: "BillboardShadow";
-  src: url("../fonts/Billboard/Billboard-Shadow.woff2") format("woff2"), url("../fonts/Billboard/Billboard-Shadow.otf") format("otf");
+  font-family: "Frederica";
+  src: url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.woff2") format("woff2"), url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.otf") format("otf");
 }
 @font-face {
   font-family: "TwoFold";
@@ -37,8 +37,8 @@
   src: url("../fonts/chalk_line_outline/ChalkLine-Outline.woff2") format("woff2"), url("../fonts/chalk_line_outline/ChalkLine-Outline.otf") format("otf");
 }
 @font-face {
-  font-family: "Rampart";
-  src: url("../fonts/Rampart_One/RampartOne-Regular.woff2") format("woff2"), url("../fonts/Rampart_One/RampartOne-Regular.otf") format("otf");
+  font-family: "DirtyFont";
+  src: url("../fonts/dirty-headline/Dirty Headline.woff2") format("woff2"), url("../fonts/dirty-headline/Dirty Headline.ttf") format("ttf");
 }
 @font-face {
   font-family: "Thunderlord";
@@ -132,7 +132,9 @@ main {
   width: 78vw;
 }
 .pagehead h1 {
-  font-family: "FoundSanBd";
+  font-family: "TwoFold";
+  text-transform: uppercase;
+  font-weight: 100;
   font-size: 3rem;
   text-align: left;
   margin-left: 0vw;
@@ -140,7 +142,6 @@ main {
   position: relative;
   left: 33vw;
   line-height: 4rem;
-  text-shadow: 0.5rem 0.5rem 3rem;
 }
 .pagehead p {
   text-align: left;
@@ -285,10 +286,26 @@ main {
   text-decoration: none;
   color: black;
 }
-.sidenav ul > li > a:hover {
-  /* opacity: 1; */
-  z-index: 10;
+.sidenav ul li:first-child:hover a {
+  color: black;
+}
+.sidenav ul li:nth-child(2):hover a {
   color: white;
+}
+.sidenav ul li:nth-child(3):hover a {
+  color: rgb(250, 200, 80);
+}
+.sidenav ul li:nth-child(4):hover a {
+  color: rgb(60, 85, 185);
+}
+.sidenav ul li:nth-child(5):hover a {
+  color: rgb(195, 70, 30);
+}
+.sidenav ul li:nth-child(6):hover a {
+  color: darkgreen;
+}
+.sidenav ul li:nth-child(7):hover a {
+  color: rgb(250, 200, 80);
 }
 
 footer {
@@ -450,7 +467,7 @@ footer {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
 }
 .center article p {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 /* animation-play-state: running;
