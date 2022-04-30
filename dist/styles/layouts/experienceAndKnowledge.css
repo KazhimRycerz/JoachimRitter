@@ -12,10 +12,10 @@
   /* background-color: rgba(60, 85, 185, 0.2); */
 }
 .center article h2 {
-  background: linear-gradient(rgba(195, 70, 30, 0.5), rgba(195, 70, 30, 0.2));
+  background: linear-gradient(rgba(195, 70, 30, 0.4), rgba(195, 70, 30, 0.1));
 }
 .center article p {
-  background: rgba(195, 70, 30, 0.2);
+  background: rgba(195, 70, 30, 0.1);
 }
 
 /*# sourceMappingURL=experienceAndKnowledge.css.map */
