@@ -95,13 +95,16 @@ $border-radius:*/
   text-align: left;
   padding-right: 10px;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
 }
 .center nav ul li {
   list-style-type: none;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-family: "FoundSanExpNorm", sans-serif;
   font-weight: lighter;
   width: 90%;
+  padding: 10px 0 0 10px;
 }
 .center nav ul li a {
   color: black;
