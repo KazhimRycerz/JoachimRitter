@@ -89,8 +89,6 @@ $border-radius:*/
   position: relative;
   top: 0vh;
   left: 3vw;
-  transform: translateY(-77%) scale(50%);
-  transition: transform 1s ease-in-out;
 }
 
 .center article {

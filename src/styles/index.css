@@ -183,7 +183,7 @@ main {
   position: relative;
   top: 0vh;
   left: 3vw;
-  transform: translateY(-90%) scale(50%);
+  transform: translateY(-40vh) scale(50%);
   transition: transform 1s ease-in-out;
 }
 .fingerlines a img {
