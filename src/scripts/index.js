@@ -29,6 +29,11 @@ function lightTopicOff() {
  
   
 }
+  function moveFinger() {
+    document.getElementById("personalHome").style.transform = "translateY(0) scale(100%)";
+  }
+
+onmouseover="lightTopicOn()" onmouseout="lightTopicOff()"
    /*  document.getElementById("personalData").onmouseover = function () {
     this.style.color = "white";
     document.getElementById("first").style.opacity = "1"; 
