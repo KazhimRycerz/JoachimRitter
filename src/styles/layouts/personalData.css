@@ -1,17 +1,125 @@
-/* Error: Undefined variable.
- *    ,
- * 32 |       font-size: $normal;
- *    |                  ^^^^^^^
- *    '
- *   src/scss/layouts/personalData.scss 32:18  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 32 \2502        font-size: $normal;\a    \2502                   ^^^^^^^\a    \2575 \a   src/scss/layouts/personalData.scss 32:18  root stylesheet";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+@font-face {
+  font-family: "VIA-Verlag";
+  src: url("../fonts/VIA-Verlag.woff2") format("woff2"), url("../fonts/VIA-Verlag.otf") format("otf");
 }
+@font-face {
+  font-family: "Frederica";
+  src: url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.woff2") format("woff2"), url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.otf") format("otf");
+}
+@font-face {
+  font-family: "TwoFold";
+  src: url("../fonts/TWOFOLD_uncomplete_DeSigN.woff2") format("woff2"), url("../fonts/carbono/carbono.otf") format("otf");
+}
+@font-face {
+  font-family: "Carbono";
+  src: url("../fonts/carbono/carbono.woff2") format("woff2"), url("../fonts/carbono/carbono.otf") format("otf");
+}
+@font-face {
+  font-family: "Vacaciones";
+  src: url("../fonts/vacaciones-outline/Vacaciones-font-ffp-defharo.woff2") format("woff2"), url("../fonts/vacaciones-outline/Vacaciones-font-ffp-defharo.otf") format("otf");
+}
+@font-face {
+  font-family: "CorporateDemi";
+  src: url("../fonts/CorporateSTOT-Dem.woff2") format("woff2"), url("../fonts/CorporateSTOT-Dem.otf") format("otf");
+}
+@font-face {
+  font-family: "CorporateReg";
+  src: url("../fonts/Corporate/CorporateSTOT-Reg.woff2") format("woff2"), url("../fonts/Corporate/CorporateSTOT-Reg.otf") format("otf");
+}
+@font-face {
+  font-family: "FallingSkyOu";
+  src: url("../fonts/Falling-Sky-Condensed-Outline/FallingSkyOu.woff2") format("woff2"), url("../fonts/Falling-Sky-Condensed-Outline/FallingSkyOu.otf") format("otf");
+}
+@font-face {
+  font-family: "ChalkLine";
+  src: url("../fonts/chalk_line_outline/ChalkLine-Outline.woff2") format("woff2"), url("../fonts/chalk_line_outline/ChalkLine-Outline.otf") format("otf");
+}
+@font-face {
+  font-family: "DirtyFont";
+  src: url("../fonts/dirty-headline/Dirty Headline.woff2") format("woff2"), url("../fonts/dirty-headline/Dirty Headline.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Thunderlord";
+  src: url("../fonts/thunder_lord/ThunderLord.woff2") format("woff2"), url("../fonts/thunder_lord/ThunderLord.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanExpNorm";
+  src: url("../fonts/Foundry/FOUSANNO.woff2") format("woff2"), url("../fonts/Foundry/FOUSANNO.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanBd";
+  src: url("../fonts/Foundry/FOUSANBD.woff2") format("woff2"), url("../fonts/Foundry/FOUSANBD.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanExpMed";
+  src: url("../fonts/Foundry/FOUSANMD.woff2") format("woff2"), url("../fonts/Foundry/FOUSANMD.otf") format("otf");
+}
+@font-face {
+  font-family: "FoundSanExBold";
+  src: url("../fonts/Foundry/FOUSANEB.woff2") format("woff2"), url("../fonts/Foundry/FOUSANEB.otf") format("otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* textsizes*/
+/*$medium: 4rem;
+$large: 10rem;
+$huge: 20rem;
+
+$border-radius:*/
+/*Mediasetting*/
+/* Fonts */
+/* logos */
+.first {
+  opacity: 1;
+  animation: paused;
+  z-index: 11;
+}
+
+#personalData {
+  color: white;
+}
+
+.fingerlines {
+  position: relative;
+  top: 0vh;
+  left: 3vw;
+  transform: translateY(-77%) scale(50%);
+  transition: transform 1s ease-in-out;
+}
+
+.center article {
+  /* background-color: rgba(255,255,255, 0.2); */
+}
+.center article h2 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
+}
+.center article table {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px 0 0 20px;
+  width: 100%;
+  height: 80%;
+  padding-bottom: 50px;
+  font-size: 1.1rem;
+}
+.center article table td {
+  height: 40px;
+  border-left: solid black;
+  border-collapse: collapse;
+  padding-left: 10px;
+  vertical-align: top;
+}
+.center article table td:first-child {
+  border: none;
+}
+
+/* animation-play-state: running;
+animation-play-state: paused;
+*/
+
+/*# sourceMappingURL=personalData.css.map */
