@@ -11,14 +11,16 @@ Journalist, manager, creator of opportunities, currently learning website coding
 - [ ] professional philosophie / motivation
 - [ ] professional carrear / influence in the professional world
 - [ ] experience and knowledge
+- [ ] where I see my future
+- [ ] contact and social media
 
-### How to use this Project
+### How to use this project
 
 --> information only - presentation
 
 ### Contact
 
-Mail: <jritter@via-internet.com>
+E-Mail: [jritter@via-internet.com] <mailto:jritter@via-internet.com>
 GitHub: [Joachim Ritter](https://github.com/KazhimRycerz)
 LinkedIn: [Joachim Ritter](https://www.linkedin.com/in/joachimr/)
 Xing: [Joachim Ritter](https://www.xing.com/profile/Joachim_Ritter19/)
@@ -47,8 +49,8 @@ Instagram: [Joachim Ritter](https://www.instagram.com/ritter_joachim/)
 - curiosity
 - openness
 
-### Used tools for website
-- [ ] [ionicons](https://)
+### Used tools for my website
+- [ ] [ionicons](https:ionicons.com//)
 - [ ] [Canva](https://www.canva.com/)
 - [x] [npm](https://www.npmjs.com/)
 - [ ] [Google Fonts](https://fonts.google.com/)

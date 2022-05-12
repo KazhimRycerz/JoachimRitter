@@ -22,12 +22,15 @@
             text-align: left;
             padding-right: 10px;
             width: 100%;
+            background-color: rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
             ul li{
                 list-style-type: none;
-                margin-bottom: 20px;
+                margin-bottom: 10px;
                 font-family: $primary-font;
                 font-weight: lighter;
                 width: 90%;
+                padding: 10px 0 0 10px;
                 a {
                     color: black;
                     text-decoration: none;
@@ -97,22 +100,22 @@
             color: black; 
          }
          li:nth-child(2):hover a{
-             color: white; 
+            color: white; 
          }
          li:nth-child(3):hover a{
-             color: rgb(250, 200, 80); 
+            color: rgb(250, 200, 80); 
          }
          li:nth-child(4):hover a {
-             color: rgb(60, 85, 185); 
+            color: rgb(60, 85, 185); 
          }
          li:nth-child(5):hover a {
-             color: rgb(195, 70, 30); 
+            color: rgb(195, 70, 30); 
          }
          li:nth-child(6):hover a {
-             color: darkgreen; 
+            color: darkgreen; 
          }
          li:nth-child(7):hover a {
-             color: rgb(250, 200, 80); 
+            color: rgb(250, 200, 80); 
          }
     }
     

@@ -1,25 +1,17 @@
-.first {
-  opacity: 1;
-  animation: paused;
-  z-index: 11;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 32 |       font-size: $normal;
+ *    |                  ^^^^^^^
+ *    '
+ *   src/scss/layouts/personalData.scss 32:18  root stylesheet */
 
-#personalData {
-  color: white;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 32 \2502        font-size: $normal;\a    \2502                   ^^^^^^^\a    \2575 \a   src/scss/layouts/personalData.scss 32:18  root stylesheet";
 }
-
-.center article {
-  /* background-color: rgba(255,255,255, 0.2); */
-}
-.center article h2 {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
-}
-.center article p {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-/* animation-play-state: running;
-animation-play-state: paused;
-*/
-
-/*# sourceMappingURL=personalData.css.map */
