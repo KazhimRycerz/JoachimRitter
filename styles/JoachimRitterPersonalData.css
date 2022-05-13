@@ -183,7 +183,7 @@ main {
   position: relative;
   top: 0vh;
   left: 3vw;
-  transform: translateY(-40vh) scale(50%);
+  transform: translateY(-35vh) scale(50%);
   transition: transform 1s ease-in-out;
 }
 .fingerlines a img {
@@ -575,6 +575,19 @@ $border-radius:*/
 }
 .center article table td:first-child {
   border: none;
+}
+
+#buchMitLicht {
+  width: 5%;
+  position: absolute;
+  left: 300px;
+  top: -250px;
+  transform: translateY(500px) translateX(-100px) scale(500%);
+  transition: transform 1s 0.5s ease-in-out;
+}
+#buchMitLicht img {
+  width: 100%;
+  height: auto;
 }
 
 /* animation-play-state: running;
