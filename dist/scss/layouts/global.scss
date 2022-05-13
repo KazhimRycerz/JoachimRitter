@@ -47,7 +47,7 @@ header {
         left: 88%;
         top: 50px;
         font-family: $primary-font-bold; 
-        font-size: 0.75rem;
+        font-size: 0.75rem;        
     }
     figure img {
         position: relative;
@@ -112,7 +112,7 @@ main {
 .fingerlines {
     position: relative;
     top: 0vh; left: 3vw;
-    transform: translateY(-40vh) scale(50%);
+    transform: translateY(-35vh) scale(50%);
     transition: transform 1s ease-in-out; 
     a img {
     width: 25vw;
