@@ -169,8 +169,9 @@ main {
 
 .content {
   position: absolute;
-  top: 20vh;
+  top: 200%;
   height: auto;
+  max-height: 80vh;
   width: 100%;
   display: flex;
   flex: row nowrap;
@@ -183,7 +184,7 @@ main {
   position: relative;
   top: 0vh;
   left: 3vw;
-  transform: translateY(-35vh) scale(50%);
+  transform: translateY(-80%) scale(50%);
   transition: transform 1s ease-in-out;
 }
 .fingerlines a img {
@@ -319,6 +320,17 @@ main {
 }
 .sidenav ul li:nth-child(7):hover a {
   color: rgb(250, 200, 80);
+}
+
+#lineOfPictures {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+  position: relative;
+  left: 0px;
+  bottom: -600px;
+  width: 75vw;
+  height: 10px;
 }
 
 footer {
@@ -577,17 +589,21 @@ $border-radius:*/
   border: none;
 }
 
-#buchMitLicht {
-  width: 5%;
-  position: absolute;
-  left: 300px;
-  top: -250px;
-  transform: translateY(500px) translateX(-100px) scale(500%);
-  transition: transform 1s 0.5s ease-in-out;
+/* .content {
+  border: solid;
+
+} */
+#lineOfPictures figure {
+  width: 10%;
+  left: 30px;
+  bottom: 0;
+  border: solid;
+  /* transform: translateY(500px) translateX(-100px)scale(500%);*/
 }
-#buchMitLicht img {
+#lineOfPictures figure img {
   width: 100%;
   height: auto;
+  transition: transform 1s 0.5s ease-in-out;
 }
 
 /* animation-play-state: running;

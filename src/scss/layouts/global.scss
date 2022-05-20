@@ -5,6 +5,7 @@
 
 
 body {
+    
     width: 100vw;
     height: 100vh;
     font-family: $primary-font;
@@ -99,8 +100,9 @@ main {
 
 .content {
     position: absolute;
-    top: 20vh;
+    top: 200%;
     height: auto;
+    max-height: 80vh;
     width: 100%;
     display: flex;
     flex: row nowrap;    
@@ -112,7 +114,7 @@ main {
 .fingerlines {
     position: relative;
     top: 0vh; left: 3vw;
-    transform: translateY(-35vh) scale(50%);
+    transform: translateY(-80%) scale(50%);
     transition: transform 1s ease-in-out; 
     a img {
     width: 25vw;
@@ -253,6 +255,18 @@ main {
     }
 }
 
+#lineOfPictures {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    position: relative;
+    left: 0px;
+    bottom: -600px;
+    //border: solid;
+    width: 75vw;
+    height: 10px;
+
+}
 
 footer {
     font-size: 0.75rem;
@@ -393,9 +407,7 @@ footer {
         }  */   
     }
     header {
-        
         margin-top: 5vh;
-    
         figure figcaption {
             position: relative;
             left: 88%;

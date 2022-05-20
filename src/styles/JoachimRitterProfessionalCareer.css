@@ -167,8 +167,9 @@ main {
 
 .content {
   position: absolute;
-  top: 20vh;
+  top: 200%;
   height: auto;
+  max-height: 80vh;
   width: 100%;
   display: flex;
   flex: row nowrap;
@@ -181,7 +182,7 @@ main {
   position: relative;
   top: 0vh;
   left: 3vw;
-  transform: translateY(-35vh) scale(50%);
+  transform: translateY(-80%) scale(50%);
   transition: transform 1s ease-in-out;
 }
 .fingerlines a img {
@@ -317,6 +318,17 @@ main {
 }
 .sidenav ul li:nth-child(7):hover a {
   color: rgb(250, 200, 80);
+}
+
+#lineOfPictures {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+  position: relative;
+  left: 0px;
+  bottom: -600px;
+  width: 75vw;
+  height: 10px;
 }
 
 footer {

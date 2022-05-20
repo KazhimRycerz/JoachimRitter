@@ -116,17 +116,21 @@ $border-radius:*/
   border: none;
 }
 
-#buchMitLicht {
-  width: 5%;
-  position: absolute;
-  left: 300px;
-  top: -250px;
-  transform: translateY(500px) translateX(-100px) scale(500%);
-  transition: transform 1s 0.5s ease-in-out;
+/* .content {
+  border: solid;
+
+} */
+#lineOfPictures figure {
+  width: 10%;
+  left: 30px;
+  bottom: 0;
+  border: solid;
+  /* transform: translateY(500px) translateX(-100px)scale(500%);*/
 }
-#buchMitLicht img {
+#lineOfPictures figure img {
   width: 100%;
   height: auto;
+  transition: transform 1s 0.5s ease-in-out;
 }
 
 /* animation-play-state: running;
