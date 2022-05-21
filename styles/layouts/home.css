@@ -153,58 +153,20 @@ $border-radius:*/
   color: rgb(250, 200, 80);
 }
 
-.sidenav li:first-child:hover a {
-  color: black;
-}
-.sidenav li:nth-child(2):hover a {
-  color: white;
-}
-.sidenav li:nth-child(3):hover a {
-  color: rgb(250, 200, 80);
-}
-.sidenav li:nth-child(4):hover a {
-  color: rgb(60, 85, 185);
-}
-.sidenav li:nth-child(5):hover a {
-  color: rgb(195, 70, 30);
-}
-.sidenav li:nth-child(6):hover a {
-  color: darkgreen;
-}
-.sidenav li:nth-child(7):hover a {
-  color: rgb(250, 200, 80);
-}
-
 @media (max-width: 1250px) {
-  .center nav {
+  #box5 nav {
     font-size: 1.2rem;
   }
 }
 @media (max-width: 870px) {
-  .center nav {
-    font-size: 1.2rem;
-  }
-  .center nav ul li {
-    margin-bottom: 10px;
-  }
-  .center nav ul li a {
-    font-size: 0.8rem;
-  }
-
-  .sidenav ul li {
-    list-style-type: none;
-    height: 30px;
-    margin: 0px;
-    padding: 0px;
-    font-size: 2.2rem;
-  }
-  .sidenav ul li a {
-    text-decoration: none;
-    color: black;
+  #box5 nav {
     font-size: 1rem;
   }
-  .sidenav ul li a:hover {
-    transform: scale(2);
+  #box5 nav ul li {
+    margin-bottom: 10px;
+  }
+  #box5 nav ul li a {
+    font-size: 0.8rem;
   }
 }
 /* animation-play-state: running;
