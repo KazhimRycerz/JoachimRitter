@@ -85,19 +85,10 @@ $border-radius:*/
   color: white;
 }
 
-.fingerlines {
-  position: relative;
-  top: 0vh;
-  left: 3vw;
-}
-
-.center article {
-  /* background-color: rgba(255,255,255, 0.2); */
-}
-.center article h2 {
+#box5 article h2 {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
 }
-.center article table {
+#box5 article table {
   background: rgba(255, 255, 255, 0.1);
   padding: 20px 0 0 20px;
   width: 100%;
@@ -105,32 +96,25 @@ $border-radius:*/
   padding-bottom: 50px;
   font-size: 1.1rem;
 }
-.center article table td {
+#box5 article table td {
   height: 40px;
   border-left: solid black;
   border-collapse: collapse;
   padding-left: 10px;
   vertical-align: top;
 }
-.center article table td:first-child {
+#box5 article table td:first-child {
   border: none;
 }
 
 #buchMitLicht {
-  width: 5%;
-  position: absolute;
-  left: 300px;
-  top: -250px;
-  transform: translateY(500px) translateX(-100px) scale(500%);
-  transition: transform 1s 0.5s ease-in-out;
+  width: 10%;
+  left: 30px;
+  bottom: 0;
 }
 #buchMitLicht img {
   width: 100%;
   height: auto;
 }
-
-/* animation-play-state: running;
-animation-play-state: paused;
-*/
 
 /*# sourceMappingURL=personalData.css.map */

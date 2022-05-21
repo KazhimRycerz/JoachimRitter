@@ -12,14 +12,9 @@
     color: white;
   }
 
-  /* .fingerlines {
-    position: relative;
-    top: 0vh; left: 3vw; 
-  } */
 
-
-.center article {
-    /* background-color: rgba(255,255,255, 0.2); */
+#box5 article {
+   
     h2 {
       background: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.1));
       }
@@ -44,30 +39,15 @@
     
   }
 
-/* .content {
-  border: solid;
-
-} */
-
-/* #box4 {
-
-  figure {
+  #buchMitLicht {
     width: 10%;
     left: 30px;
     bottom: 0;
-    border: solid;
-    //transform: translateY(-400px) translateX(-100px)scale(500%);
-     transform: translateY(500px) translateX(-100px)scale(500%);
+     // transform: translateY(-400px) translateX(-100px)scale(500%);
+     //transform: translateY(-400px) translateX(100px)scale(300%);
+     //transition: transform 1s 0.5s ease-in-out; 
     img {
       width:100%;
       height: auto;
-      transition: transform 1s 0.5s ease-in-out; 
     } 
   }
-} */
-
-
-
-/* animation-play-state: running;
-animation-play-state: paused;
-*/

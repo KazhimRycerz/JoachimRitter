@@ -11,8 +11,6 @@ function lightTopicOn() {
   document.getElementById("seventh").style.animationPlayState = "paused";
   document.getElementById("eigth").style.animationPlayState = "paused";
   document.getElementById("ninth").style.animationPlayState = "paused";
-  
- /*  document.getElementById("first").style.opacity = "1"; */
 }
 
 function lightTopicOff() {
@@ -29,11 +27,13 @@ function lightTopicOff() {
  
   
 }
-  function moveFinger() {
+  const moveFinger = () => {
     document.getElementById("personalHome").style.transform = "translateY(0) scale(100%)";
+    document.getElementById("buchMitLicht").style.transform = "translateY(-400px) translateX(-100px) scale(500%)";
+    document.getElementById("buchMitLicht").style.transition = "transform 1s 0.5s ease-in-out";
   }
 
-onmouseover="lightTopicOn()" onmouseout="lightTopicOff()"
+  onmouseover="lightTopicOn()" onmouseout="lightTopicOff()"
    /*  document.getElementById("personalData").onmouseover = function () {
     this.style.color = "white";
     document.getElementById("first").style.opacity = "1"; 

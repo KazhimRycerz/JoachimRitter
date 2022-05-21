@@ -79,11 +79,12 @@ $border-radius:*/
 /* logos */
 body {
   display: grid;
-  grid-template-columns: 30% 50% 10%;
-  grid-template-rows: 23% 48% 18% 3%;
-  grid-gap: 5px;
-  margin: 2.5% 5%;
+  grid-template-columns: 30% 53% 10%;
+  grid-template-rows: 30% 45% 15% 5%;
+  grid-gap: 0px;
+  margin: 1.5% 3%;
   width: 100vw;
+  max-width: 3000px;
   height: 100vh;
   font-family: "FoundSanExpNorm", sans-serif;
   background-image: url(../Images/IMG_1839.PNG), linear-gradient(166deg, rgb(7, 0, 125) 0%, rgb(114, 78, 173) 50%, rgb(142, 94, 131) 70%, rgb(161, 22, 6) 100%);
@@ -106,31 +107,26 @@ body #box2 h1 {
   font-family: "TwoFold";
   text-transform: uppercase;
   font-weight: 100;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: left;
-  margin-left: 0vw;
   line-height: 4rem;
 }
 body #box2 p {
   text-align: left;
   font-family: "FoundSanExpNorm", sans-serif;
   font-size: 1.5rem;
-  width: 60%;
-  position: relative;
-  left: 0;
   margin-top: 10px;
 }
 body #box3 {
-  padding-top: 20px;
+  padding-top: 30%;
   grid-column: 3/4;
   grid-row: 1/2;
-  background: transparent;
 }
 body #box3 figure img {
   position: relative;
   left: 15%;
   top: 10px;
-  width: 8vw;
+  width: 90%;
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 50%;
@@ -148,10 +144,6 @@ body #box3 figure figcaption {
 body #box4 {
   grid-column: 1/2;
   grid-row: 2/3;
-}
-body #box4 a {
-  transform: translateY(-80%) scale(50%);
-  transition: transform 1s ease-in-out;
 }
 body #box4 a img {
   width: 20%;
@@ -246,11 +238,11 @@ body #box5 article p {
 body #box6 {
   grid-column: 3/4;
   grid-row: 2/4;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 body #box6 ul {
-  padding-left: 30px;
-  width: 75%;
+  padding-left: 20px;
+  width: 100%;
 }
 body #box6 ul li {
   list-style-type: none;
@@ -313,35 +305,20 @@ body #box10 {
   padding-left: 30px;
 }
 
-/* #lineOfPictures {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 20px;
-    position: relative;
-    left: 0px;
-    bottom: -600px;
-    //border: solid;
-    width: 75vw;
-    height: 10px;
-
-} */
 @media (max-width: 1250px) {
-  .pagehead h1 {
-    /* width: 100%;
-    left: 0vw; */
+  #box2 h1 {
     font-size: 2.5rem;
     line-height: 2.5rem;
   }
-  .pagehead p {
+  #box2 p {
     font-size: 1rem;
   }
 
-  .sidenav ul li {
-    font-size: 0.75em;
-    margin-bottom: 15px;
+  #box4 a img {
+    width: 20vw;
   }
 
-  .center article {
+  #box5 article {
     position: relative;
     margin-bottom: 100px;
     border-radius: 10px;
@@ -349,108 +326,80 @@ body #box10 {
     max-height: 50vh;
     overflow-y: scroll;
   }
-  .center article h2 {
+  #box5 article h2 {
     padding: 20px;
     font-size: 1.5rem;
   }
-  .center article p {
+  #box5 article p {
     font-size: 0.75rem;
     padding: 20px;
     width: 100%;
   }
 
-  .fingerlines a img {
-    width: 20vw;
+  #box6 {
+    padding-left: 0px;
+  }
+  #box6 ul {
+    padding-left: 0px;
+  }
+  #box6 ul li {
+    padding-bottom: 0px;
+  }
+  #box6 ul li a {
+    font-size: 0.75em;
   }
 
-  footer {
+  #box10 {
     font-size: 0.6rem;
-    position: absolute;
-    top: 80vh;
-    right: 5.5vw;
-  }
-
-  .content {
-    top: 15vh;
-    height: auto;
   }
 }
 @media (max-width: 870px) {
-  .content {
-    top: 15vh;
-  }
-
-  .pagehead h1 {
-    /* width: 100%;
-    left: 0vw; */
-    font-size: 2rem;
+  #box2 h1 {
+    font-size: 1.5rem;
     line-height: 2.5rem;
   }
-  .pagehead p {
-    /* width: 100%;
-    left: 0vw; */
+  #box2 p {
     font-size: 0.5rem;
   }
 
-  .sidenav ul li {
-    font-size: 0.5rem;
-  }
-  .sidenav ul li a {
-    margin-bottom: 20px;
+  #box3 figure figcaption {
+    font-family: "FoundSanBd";
+    font-size: 0.5em;
   }
 
-  .center article {
+  #box5 article {
     position: relative;
     margin-bottom: 100px;
     border-radius: 10px;
     width: 90%;
     max-height: 50vh;
-    /*  max-height: 30%; */
     overflow-y: scroll;
   }
-  .center article h2 {
+  #box5 article h2 {
     padding: 20px;
     font-size: 1.5rem;
   }
-  .center article p {
+  #box5 article p {
     font-size: 0.75rem;
     padding: 20px;
     width: 100%;
   }
 
-  .fingerlines a img {
-    width: 20vw;
-  }
-
-  footer {
-    font-size: 0.6rem;
-    position: absolute;
-    bottom: 15vh;
-    top: 58.5vw;
-  }
-
-  .content {
-    position: absolute;
-    top: 5vh;
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex: row nowrap;
-    /* * {
-        border: solid red;
-    }  */
-  }
-
-  header {
-    margin-top: 5vh;
-  }
-  header figure figcaption {
-    position: relative;
-    left: 88%;
-    top: 30px;
-    font-family: "FoundSanBd";
+  #box6 ul li {
     font-size: 0.5rem;
+    margin-bottom: 10px;
   }
+
+  /* #box4 a img {
+      width: 20vw;
+  } */
+  /* #box10 {
+      font-size: 0.6rem;
+      position: absolute;
+      bottom: 15vh;
+      top: 58.5vw;
+
+  } */
 }
 @font-face {
   font-family: "VIA-Verlag";
@@ -537,17 +486,10 @@ $border-radius:*/
   color: white;
 }
 
-/* .fingerlines {
-  position: relative;
-  top: 0vh; left: 3vw; 
-} */
-.center article {
-  /* background-color: rgba(255,255,255, 0.2); */
-}
-.center article h2 {
+#box5 article h2 {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
 }
-.center article table {
+#box5 article table {
   background: rgba(255, 255, 255, 0.1);
   padding: 20px 0 0 20px;
   width: 100%;
@@ -555,39 +497,25 @@ $border-radius:*/
   padding-bottom: 50px;
   font-size: 1.1rem;
 }
-.center article table td {
+#box5 article table td {
   height: 40px;
   border-left: solid black;
   border-collapse: collapse;
   padding-left: 10px;
   vertical-align: top;
 }
-.center article table td:first-child {
+#box5 article table td:first-child {
   border: none;
 }
 
-/* .content {
-  border: solid;
-
-} */
-/* #box4 {
-
-  figure {
-    width: 10%;
-    left: 30px;
-    bottom: 0;
-    border: solid;
-    //transform: translateY(-400px) translateX(-100px)scale(500%);
-     transform: translateY(500px) translateX(-100px)scale(500%);
-    img {
-      width:100%;
-      height: auto;
-      transition: transform 1s 0.5s ease-in-out; 
-    } 
-  }
-} */
-/* animation-play-state: running;
-animation-play-state: paused;
-*/
+#buchMitLicht {
+  width: 10%;
+  left: 30px;
+  bottom: 0;
+}
+#buchMitLicht img {
+  width: 100%;
+  height: auto;
+}
 
 /*# sourceMappingURL=JoachimRitterPersonalData.css.map */

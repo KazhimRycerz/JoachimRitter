@@ -6,11 +6,12 @@
 
 body {
     display: grid;
-    grid-template-columns: 30% 50% 10%;
-    grid-template-rows: 23% 48% 18% 3%;
-    grid-gap:5px;
-    margin: 2.5% 5%;
+    grid-template-columns: 30% 53% 10%;
+    grid-template-rows: 30% 45% 15% 5%;
+    grid-gap:0px;
+    margin: 1.5% 3%;
     width: 100vw;
+    max-width: 3000px;
     height: 100vh;
     font-family: $primary-font;
     background-image: url(../Images/IMG_1839.PNG), linear-gradient(166deg, rgba(7,0,125,1) 0%, rgba(114,78,173,1) 50%, rgba(142,94,131,1) 70%, rgba(161,22,6,1) 100%);
@@ -31,37 +32,32 @@ body {
         grid-row: 1/2;
         padding-top: 50px;
         //border: solid;
-    h1 {
-        font-family: "TwoFold";
-        text-transform: uppercase;
-        font-weight: 100;
-        font-size: 3rem;
-        text-align: left;
-        margin-left: 0vw;
-        line-height: 4rem;        
-    }
-    p {
-        text-align: left;
-        font-family: $primary-font;
-        font-size: 1.5rem;
-        width: 60%;
-        position: relative;
-        left: 0;
-        margin-top: 10px;
-    }
+        h1 {
+            font-family: "TwoFold";
+            text-transform: uppercase;
+            font-weight: 100;
+            font-size: 2.5rem;
+            text-align: left;
+            line-height: 4rem;        
+        }
+        p {
+            text-align: left;
+            font-family: $primary-font;
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
     }
     #box3 {
-        padding-top: 20px;
+        padding-top: 30%;
         grid-column: 3/4;
         grid-row: 1/2;
-        background: transparent;
         //border: solid;
         figure {
             img {
                 position: relative;
                 left: 15%;
                 top: 10px;
-                width: 8vw;
+                width: 90%;
                 aspect-ratio: 1;
                 object-fit: cover;
                 border-radius: 50%;
@@ -82,9 +78,9 @@ body {
         grid-column: 1/2;
         grid-row: 2/3;
         //border: solid;
-        a {            
-        transform: translateY(-80%) scale(50%);
-        transition: transform 1s ease-in-out; 
+        //transform: translateY(-40%) translatex(20%) scale(100%);
+        //transition: transform 1s ease-in-out; 
+        a {   
             img {
             width: 20%;
             position:absolute;
@@ -152,44 +148,43 @@ body {
     }}
 
     #box5 {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    //border: solid;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 10px;
-        
-    nav>ul>li>a {
-        font-family: $primary-font-bold;
-    }
-    article {
-        position: relative;
-        background: $OuterSpace30;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        //border: solid;
+        display: flex;
+        justify-content: space-between;
         border-radius: 10px;
-        width: 90%;
-        height: 90%;
-        margin: 20px;
-        box-shadow:$boxshadow;
-        overflow-y: auto;
-        h2 {
-            padding: 20px;           
+        nav>ul>li>a {
+            font-family: $primary-font-bold;
         }
-        p {
-            font-size: 1.2rem;
-            padding: 20px;
-            width: 100%;
-            
+        article {
+            position: relative;
+            background: $OuterSpace30;
+            border-radius: 10px;
+            width: 90%;
+            height: 90%;
+            margin: 20px;
+            box-shadow:$boxshadow;
+            overflow-y: auto;
+            h2 {
+                padding: 20px;           
+            }
+            p {
+                font-size: 1.2rem;
+                padding: 20px;
+                width: 100%;
+                
+            }
         }
-    }
     }
     #box6 {
-    grid-column: 3/4;
-    grid-row: 2/4;
-    padding-top: 20px;
-    //border: solid;
+        grid-column: 3/4;
+        grid-row: 2/4;
+        padding-top: 10px;
+        //border: solid;
         ul {
-            padding-left: 30px;
-            width: 75%;
+            padding-left: 20px;
+            width: 100%;
             li {
             list-style-type: none;
             margin-bottom: 20px;
@@ -236,9 +231,8 @@ body {
             //border: solid;
             width: 10%;
             img {
-            width: 100%;
-            
-        }
+                width: 100%;  
+            }
         }
         
     }
@@ -262,148 +256,116 @@ body {
     }
 }
 
-/* #lineOfPictures {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 20px;
-    position: relative;
-    left: 0px;
-    bottom: -600px;
-    //border: solid;
-    width: 75vw;
-    height: 10px;
-
-} */
 
 @media (max-width: $desktop){
-   .pagehead { 
-    h1 {
-      /* width: 100%;
-      left: 0vw; */
-      font-size: 2.5rem;
-      line-height: 2.5rem;
-    }
-    p {
-      
-      font-size: 1rem;
-    }
-    }
-
-    .sidenav ul li {
-       font-size: 0.75em;
-       margin-bottom: 15px;
-    }
-
-    .center {
-      article {
-        position: relative;
-        margin-bottom: 100px;
-        border-radius: 10px;
-        width: 90%;
-        max-height: 50vh;
-        // max-height: 30%;
-        overflow-y: scroll;
-        h2 {
-            padding: 20px;
-            font-size: 1.5rem;;
+   #box2 { 
+        h1 {
+            //border: solid 2px;
+            font-size: 2.5rem;
+            line-height: 2.5rem;
         }
         p {
-            font-size: 0.75rem;
-            padding: 20px;
-            width: 100%;
+            font-size: 1rem;
         }
-      }
     }
-    .fingerlines a img {
+
+    #box4 a img {
         width: 20vw;
     }
-    footer {
-        font-size: 0.6rem;
-        position: absolute;
-        top: 80vh;
-        right: 5.5vw;
-        
+    #box5 {
+        article {
+            position: relative;
+            margin-bottom: 100px;
+            border-radius: 10px;
+            width: 90%;
+            max-height: 50vh;
+            // max-height: 30%;
+            overflow-y: scroll;
+            h2 {
+                padding: 20px;
+                font-size: 1.5rem;;
+            }
+            p {
+                font-size: 0.75rem;
+                padding: 20px;
+                width: 100%;
+            }
+        }
     }
-    .content {
-        top: 15vh;
-        height: auto;
+    #box6 {
+        //border: solid;
+        padding-left: 0px;
+        ul {
+        //border: solid;
+        padding-left: 0px; 
+        li {
+            padding-bottom: 0px;
+            a {
+                font-size: 0.75em;
+                }
+            }
+        }
+    }
+    #box10 {
+            font-size: 0.6rem;         
     }
 }
-
+    
 @media (max-width: $tablet){
-    .content {
-         top: 15vh;
-     }
- 
-     .pagehead {
+    
+    #box2 {
         h1 {
-       /* width: 100%;
-       left: 0vw; */
-       font-size: 2.0rem;
-       line-height: 2.5rem;
+            font-size: 1.5rem;
+            line-height: 2.5rem;   
+            //border: solid;
         }
         p {
-        /* width: 100%;
-        left: 0vw; */
-        font-size: 0.5rem;
+           font-size: 0.5rem;
         }
-     }
- 
-     .sidenav ul li {
-        font-size: 0.5rem;
-        a {
-        margin-bottom: 20px;
     }
-}
-     .center {
-       article {
-         position: relative;
-         margin-bottom: 100px;
-         
-         border-radius: 10px;
-         width: 90%;
-         max-height: 50vh;
-         /*  max-height: 30%; */
-         overflow-y: scroll;
-         h2 {
-             padding: 20px;
-             font-size: 1.5rem;;
-         }
-         p {
-             font-size: 0.75rem;
-             padding: 20px;
-             width: 100%;
-         }
-       }
-     }
-     .fingerlines a img {
-         width: 20vw;
-     }
-     footer {
-         font-size: 0.6rem;
-         position: absolute;
-         bottom: 15vh;
-         top: 58.5vw;
-         
-     }
-     .content {
-        position: absolute;
-        top: 5vh;
-        height: auto;
-        width: 100%;
-        display: flex;
-        flex: row nowrap;    
-        /* * {
-            border: solid red;
-        }  */   
-    }
-    header {
-        margin-top: 5vh;
+    
+    #box3 {
         figure figcaption {
-            position: relative;
-            left: 88%;
-            top: 30px;
             font-family: $primary-font-bold; 
-            font-size: 0.5rem;
-        }}
- }
+            font-size: 0.5em;
+        }
+    }
+    
+    
+    #box5 {
+        article {
+            position: relative;
+            margin-bottom: 100px;
+            
+            border-radius: 10px;
+            width: 90%;
+            max-height: 50vh;
+            overflow-y: scroll;
+            h2 {
+                padding: 20px;
+                font-size: 1.5rem;;
+            }
+            p {
+                font-size: 0.75rem;
+                padding: 20px;
+                width: 100%;
+            }
+        }
+    }
+    #box6 ul li {
+        font-size: 0.5rem;
+        margin-bottom: 10px;
+    }
+    
+    /* #box4 a img {
+        width: 20vw;
+    } */
+    /* #box10 {
+        font-size: 0.6rem;
+        position: absolute;
+        bottom: 15vh;
+        top: 58.5vw;
+        
+    } */
+    
+}
