@@ -85,10 +85,10 @@ $border-radius:*/
   color: white;
 }
 
-#box5 article h2 {
+.box5 article h2 {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
 }
-#box5 article table {
+.box5 article table {
   background: rgba(255, 255, 255, 0.1);
   padding: 20px 0 0 20px;
   width: 100%;
@@ -96,14 +96,14 @@ $border-radius:*/
   padding-bottom: 50px;
   font-size: 1.1rem;
 }
-#box5 article table td {
+.box5 article table td {
   height: 40px;
   border-left: solid black;
   border-collapse: collapse;
   padding-left: 10px;
   vertical-align: top;
 }
-#box5 article table td:first-child {
+.box5 article table td:first-child {
   border: none;
 }
 
