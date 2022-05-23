@@ -307,7 +307,6 @@ body .box10 {
 
 @media (max-width: 1250px) {
   .box2 h1 {
-    border: solid 2px;
     font-size: 1.5rem;
     line-height: 3rem;
   }
