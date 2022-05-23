@@ -164,6 +164,7 @@ $border-radius:*/
   }
   .box5 nav ul li {
     margin-bottom: 10px;
+    line-height: 0.5rem;
   }
   .box5 nav ul li a {
     font-size: 0.8rem;
