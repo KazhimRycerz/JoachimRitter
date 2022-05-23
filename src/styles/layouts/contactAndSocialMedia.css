@@ -4,25 +4,25 @@
   z-index: 11;
 }
 
-#box5 article {
+.box5 article {
   height: 100%;
 }
-#box5 article h2 {
+.box5 article h2 {
   background: linear-gradient(rgba(250, 200, 80, 0.5), rgba(250, 200, 80, 0.2));
 }
-#box5 article ul {
+.box5 article ul {
   background: rgba(250, 200, 80, 0.2);
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   cursor: url(../Images/finger-print-outline.svg);
 }
-#box5 article ul li {
+.box5 article ul li {
   margin-left: 20px;
   font-size: 1.5rem;
   list-style-type: none;
 }
-#box5 article ul li a, #box5 article ul li p {
+.box5 article ul li a, .box5 article ul li p {
   text-decoration: none;
   display: inline;
   color: black;

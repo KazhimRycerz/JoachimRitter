@@ -85,13 +85,13 @@ $border-radius:*/
   color: rgb(250, 200, 80);
 }
 
-.center article {
+.box5 article {
   /* background: rgba(250, 200, 80, 0.2); */
 }
-.center article h2 {
+.box5 article h2 {
   background: linear-gradient(rgba(250, 200, 80, 0.5), rgba(250, 200, 80, 0.2));
 }
-.center article p {
+.box5 article p {
   background: rgba(250, 200, 80, 0.2);
 }
 

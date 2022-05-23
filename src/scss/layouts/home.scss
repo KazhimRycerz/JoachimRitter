@@ -7,7 +7,7 @@
     transition: transform 1s ease-in-out; 
   } */
   
-#box5 {
+.box5 {
     nav {
         font-size: 1.5rem;
         // font-variant:small-caps;
@@ -90,13 +90,13 @@
     
     
     @media (max-width: $desktop){
-        #box5 nav {
+        .box5 nav {
           font-size: 1.2rem;
         }
     }
 
     @media (max-width: $tablet){
-        #box5 nav {
+        .box5 nav {
           font-size: 1.0rem;
           ul li {
             margin-bottom: 10px;
