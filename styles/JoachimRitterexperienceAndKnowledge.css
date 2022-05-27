@@ -76,32 +76,58 @@ $border-radius:*/
 /* Fonts */
 /* logos */
 body {
-  display: grid;
-  grid-template-columns: 30% 53% 10%;
-  grid-template-rows: 30% 45% 15% 5%;
-  grid-gap: 0px;
-  margin: 1.5% 3%;
-  width: 100vw;
-  max-width: 3000px;
+  background-image: linear-gradient(166deg, rgb(7, 0, 125) 0%, rgb(114, 78, 173) 50%, rgb(142, 94, 131) 70%, rgb(161, 22, 6) 100%);
   height: 100vh;
-  font-family: "FoundSanExpNorm", sans-serif;
-  background-image: url(../Images/IMG_1839.PNG), linear-gradient(166deg, rgb(7, 0, 125) 0%, rgb(114, 78, 173) 50%, rgb(142, 94, 131) 70%, rgb(161, 22, 6) 100%);
   background-repeat: no-repeat;
-  background-size: 100%;
-  overflow: hidden;
-  position: relative;
-  cursor: url(../Images/finger-print-outline.svg);
 }
-body .box1 {
+
+#bg {
+  /* background-image: url(../Images/IMG_1839.PNG);
+  background-repeat:no-repeat;
+  background-size: 100%; */
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1500px;
+  height: 100%;
+  max-height: 1010;
+  border: solid;
+  padding-bottom: 0;
+}
+#bg img {
+  position: absolute;
+  width: 100%;
+  max-width: 1500px;
+  height: auto;
+  max-height: 1200px;
+  margin: 0 auto;
+}
+#bg #content {
+  display: grid;
+  grid-auto-rows: min-content;
+  grid-template-columns: 30% 57% 11.8%;
+  grid-template-rows: 23% 45% 20% 3%;
+  grid-gap: 0px;
+  border-collapse: collapse;
+  margin: 3% 2% 1.5% 2%;
+  height: 95vh;
+  max-height: 1010px;
+  font-family: "FoundSanExpNorm", sans-serif;
+  overflow: visible;
+  position: relative;
+  /* >*{
+      border: solid;
+  } */
+}
+#bg #content .box1 {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-body .box2 {
+#bg #content .box2 {
   grid-column: 2/3;
   grid-row: 1/2;
   padding-top: 50px;
 }
-body .box2 h1 {
+#bg #content .box2 h1 {
   font-family: "TwoFold";
   text-transform: uppercase;
   font-weight: 100;
@@ -109,28 +135,28 @@ body .box2 h1 {
   text-align: left;
   line-height: 4rem;
 }
-body .box2 p {
+#bg #content .box2 p {
   text-align: left;
   font-family: "FoundSanExpNorm", sans-serif;
   font-size: 1.5rem;
   margin-top: 10px;
 }
-body .box3 {
-  padding-top: 30%;
+#bg #content .box3 {
+  padding-top: 25%;
   grid-column: 3/4;
   grid-row: 1/2;
 }
-body .box3 figure img {
+#bg #content .box3 figure img {
   position: relative;
   left: 15%;
   top: 10px;
-  width: 90%;
+  width: 80%;
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 50%;
   object-position: 0 0px;
 }
-body .box3 figure figcaption {
+#bg #content .box3 figure figcaption {
   margin: 0 auto;
   position: relative;
   left: 10px;
@@ -139,60 +165,63 @@ body .box3 figure figcaption {
   font-family: "FoundSanBd";
   font-size: 0.75rem;
 }
-body .box4 {
+#bg #content .box4 {
   grid-column: 1/2;
   grid-row: 2/3;
+  padding-top: 20px;
 }
-body .box4 a img {
-  width: 20%;
+#bg #content .box4 div {
+  margin: 0 25%;
+}
+#bg #content .box4 div a img {
+  width: 15%;
   position: absolute;
-  margin: 20px 5%;
 }
-body .box4 a #basis {
+#bg #content .box4 div a #basis {
   opacity: 1;
   z-index: 1;
 }
-body .box4 a #first {
+#bg #content .box4 div a #first {
   opacity: 1;
   animation: fadeinandout 2s infinite ease alternate-reverse;
   z-index: 9;
 }
-body .box4 a #second {
+#bg #content .box4 div a #second {
   opacity: 1;
   animation: fadeinandout 2s infinite ease alternate-reverse;
   z-index: 9;
 }
-body .box4 a #third {
+#bg #content .box4 div a #third {
   opacity: 1;
   animation: fadeinandout 2.5s infinite ease alternate-reverse;
   z-index: 9;
 }
-body .box4 a #fourth {
+#bg #content .box4 div a #fourth {
   opacity: 1;
   animation: fadeinandout 1.5s infinite ease alternate-reverse;
   z-index: 9;
 }
-body .box4 a #fifth {
+#bg #content .box4 div a #fifth {
   opacity: 1;
   animation: fadeinandout 1.3s infinite ease alternate-reverse;
   z-index: 9;
 }
-body .box4 a #sixth {
+#bg #content .box4 div a #sixth {
   opacity: 1;
   animation: fadeinandout 3s infinite ease alternate-reverse;
   z-index: 9;
 }
-body .box4 a #seventh {
+#bg #content .box4 div a #seventh {
   opacity: 1;
   animation: fadeinandout 1s infinite ease alternate-reverse;
   z-index: 9;
 }
-body .box4 a #eigth {
+#bg #content .box4 div a #eigth {
   opacity: 1;
   animation: fadeinandout 2.2s infinite ease alternate-reverse;
   z-index: 9;
 }
-body .box4 a #ninth {
+#bg #content .box4 div a #ninth {
   opacity: 1;
   animation: fadeinandout 2.7s infinite ease alternate-reverse;
   z-index: 9;
@@ -205,17 +234,15 @@ body .box4 a #ninth {
     opacity: 1;
   }
 }
-body .box5 {
+#bg #content .box5 {
   grid-column: 2/3;
   grid-row: 2/3;
-  display: flex;
-  justify-content: space-between;
   border-radius: 10px;
 }
-body .box5 nav > ul > li > a {
+#bg #content .box5 nav > ul > li > a {
   font-family: "FoundSanBd";
 }
-body .box5 article {
+#bg #content .box5 article {
   position: relative;
   background: rgba(49, 54, 55, 0.2);
   border-radius: 10px;
@@ -225,78 +252,85 @@ body .box5 article {
   box-shadow: 0.5rem 0.5rem 2rem;
   overflow-y: auto;
 }
-body .box5 article h2 {
+#bg #content .box5 article h2 {
   padding: 20px;
 }
-body .box5 article p {
+#bg #content .box5 article p {
   font-size: 1.2rem;
   padding: 20px;
   width: 100%;
 }
-body .box6 {
+#bg #content .box6 {
   grid-column: 3/4;
   grid-row: 2/4;
-  padding-top: 10px;
 }
-body .box6 ul {
-  padding-left: 20px;
+#bg #content .box6 ul {
+  padding-left: 15%;
   width: 100%;
+  margin-top: 10px;
 }
-body .box6 ul li {
+#bg #content .box6 ul li {
   list-style-type: none;
   margin-bottom: 20px;
   font-size: 1rem;
   font-family: "FoundSanBd";
 }
-body .box6 ul li a {
+#bg #content .box6 ul li a {
   text-decoration: none;
   color: black;
 }
-body .box6 ul li:first-child:hover a {
+#bg #content .box6 ul li:first-child:hover a {
   color: black;
 }
-body .box6 ul li:nth-child(2):hover a {
+#bg #content .box6 ul li:nth-child(2):hover a {
   color: white;
 }
-body .box6 ul li:nth-child(3):hover a {
+#bg #content .box6 ul li:nth-child(3):hover a {
   color: rgb(250, 200, 80);
 }
-body .box6 ul li:nth-child(4):hover a {
+#bg #content .box6 ul li:nth-child(4):hover a {
   color: rgb(60, 85, 185);
 }
-body .box6 ul li:nth-child(5):hover a {
+#bg #content .box6 ul li:nth-child(5):hover a {
   color: rgb(195, 70, 30);
 }
-body .box6 ul li:nth-child(6):hover a {
+#bg #content .box6 ul li:nth-child(6):hover a {
   color: darkgreen;
 }
-body .box6 ul li:nth-child(7):hover a {
+#bg #content .box6 ul li:nth-child(7):hover a {
   color: rgb(250, 200, 80);
 }
-body .box7 {
+#bg #content .box7 {
   grid-column: 1/3;
   grid-row: 3/4;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 20px;
-}
-body .box7 figure {
-  width: 10%;
-}
-body .box7 figure img {
+  gap: 0;
+  height: 100%;
   width: 100%;
+  overflow-x: hidden;
+  justify-content: space-around;
+  padding-left: 50px;
+  align-items: center;
 }
-body .box8 {
-  grid-column: 1/2;
-  grid-row: 4/5;
+#bg #content .box7 figure {
+  height: 60%;
+  width: 15%;
 }
-body .box9 {
+#bg #content .box7 figure img {
+  height: fit-content;
+  width: 12%;
+  height: 12%;
+}
+#bg #content .box8 {
   grid-column: 2/3;
   grid-row: 4/5;
 }
-body .box10 {
+#bg #content .box9 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+#bg #content .box10 {
   grid-column: 3/4;
   grid-row: 4/5;
   font-size: 0.75rem;
@@ -334,9 +368,6 @@ body .box10 {
     width: 100%;
   }
 
-  .box6 {
-    padding-left: 0px;
-  }
   .box6 ul {
     padding-left: 0px;
   }
@@ -344,7 +375,7 @@ body .box10 {
     padding-bottom: 0px;
   }
   .box6 ul li a {
-    font-size: 0.75em;
+    font-size: 0.8rem;
   }
 
   .box10 {
@@ -352,28 +383,19 @@ body .box10 {
   }
 }
 @media (max-width: 870px) {
-  body {
-    background-size: 100vw;
-    display: grid;
-    grid-template-columns: 30% 53% 10%;
-    grid-template-rows: 40% 35% 15% 5%;
-    grid-gap: 0px;
-    margin: 0 3%;
-    width: 100vw;
-    max-width: 3000px;
-    height: 100vh;
-  }
-
+  /* body {
+      background-size: 100vh;
+  } */
   .box2 h1 {
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
   }
   .box2 p {
     font-size: 0.5rem;
   }
 
   .box3 figure figcaption {
-    font-family: "FoundSanExpNorm", sans-serif;
+    font-family: "FoundSanBd";
     font-size: 0.5em;
   }
 
@@ -395,21 +417,28 @@ body .box10 {
     width: 100%;
   }
 
-  .box6 ul li {
-    margin: 0px;
-    line-height: 0.5rem;
+  .box6 ul {
+    padding-left: 0px;
   }
-  .box6 ul li a {
-    font-size: 0.6rem;
-    font-family: "FoundSanBd";
+  .box6 ul li {
+    font-size: 0.5rem;
+    margin-bottom: 10px;
+    border: solid;
+    margin-left: 0px;
+    padding-left: 0;
   }
 
-  /* .box4 a img {
-      width: 20vw;
-  } */
-  .box10 p {
-    font-size: 0.5rem;
+  .box4 a img {
+    width: 20vw;
   }
+
+  /* .box10 {
+      font-size: 0.6rem;
+      position: absolute;
+      bottom: 15vh;
+      top: 58.5vw;
+
+  } */
 }
 .fifth {
   opacity: 1;
