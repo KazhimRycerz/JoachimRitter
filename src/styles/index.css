@@ -1,7 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 @font-face {
   font-family: "VIA-Verlag";
   src: url("../fonts/VIA-Verlag.woff2") format("woff2"), url("../fonts/VIA-Verlag.otf") format("otf");
@@ -92,7 +90,6 @@ body {
   max-width: 1500px;
   height: 100%;
   max-height: 1010;
-  border: solid;
   padding-bottom: 0;
 }
 #bg img {
@@ -112,7 +109,7 @@ body {
   border-collapse: collapse;
   margin: 3% 2% 1.5% 2%;
   height: 95vh;
-  max-height: 1010px;
+  max-height: 1030px;
   font-family: "FoundSanExpNorm", sans-serif;
   overflow: visible;
   position: relative;
@@ -270,6 +267,8 @@ body {
   padding-left: 15%;
   width: 100%;
   margin-top: 10px;
+  display: flex;
+  flex-flow: column nowrap;
 }
 #bg #content .box6 ul li {
   list-style-type: none;
@@ -384,21 +383,23 @@ body {
     font-size: 0.6rem;
   }
 }
-@media (max-width: 870px) {
-  /* body {
-      background-size: 100vh;
-  } */
+@media screen and (max-width: 870px) {
   .box2 h1 {
-    font-size: 1rem;
-    line-height: 2.5rem;
+    font-family: "TwoFold";
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
-  .box2 p {
+  .box2 h1 p {
     font-size: 0.5rem;
   }
 
   .box3 figure figcaption {
     font-family: "FoundSanBd";
     font-size: 0.5em;
+  }
+
+  .box4 a img {
+    width: 20vw;
   }
 
   .box5 article {
@@ -419,104 +420,35 @@ body {
     width: 100%;
   }
 
-  .box6 ul {
-    padding-left: 0px;
-  }
   .box6 ul li {
-    font-size: 0.5rem;
-    margin-bottom: 10px;
-    border: solid;
-    margin-left: 0px;
-    padding-left: 0;
+    padding-left: 3px;
+    margin: 0px;
+    line-height: 0.6rem;
+  }
+  .box6 ul li a {
+    font-size: 0.6rem;
+    padding: 0;
   }
 
-  .box4 a img {
-    width: 20vw;
+  .box10 {
+    font-size: 0.4rem;
   }
+}
+/* @media (max-width: 600px){
 
-  /* .box10 {
-      font-size: 0.6rem;
-      position: absolute;
-      bottom: 15vh;
-      top: 58.5vw;
-
-  } */
-}
-@font-face {
-  font-family: "VIA-Verlag";
-  src: url("../fonts/VIA-Verlag.woff2") format("woff2"), url("../fonts/VIA-Verlag.otf") format("otf");
-}
-@font-face {
-  font-family: "Frederica";
-  src: url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.woff2") format("woff2"), url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.otf") format("otf");
-}
-@font-face {
-  font-family: "TwoFold";
-  src: url("../fonts/TWOFOLD_uncomplete_DeSigN.woff2") format("woff2"), url("../fonts/carbono/carbono.otf") format("otf");
-}
-@font-face {
-  font-family: "Carbono";
-  src: url("../fonts/carbono/carbono.woff2") format("woff2"), url("../fonts/carbono/carbono.otf") format("otf");
-}
-@font-face {
-  font-family: "Vacaciones";
-  src: url("../fonts/vacaciones-outline/Vacaciones-font-ffp-defharo.woff2") format("woff2"), url("../fonts/vacaciones-outline/Vacaciones-font-ffp-defharo.otf") format("otf");
-}
-@font-face {
-  font-family: "CorporateDemi";
-  src: url("../fonts/CorporateSTOT-Dem.woff2") format("woff2"), url("../fonts/CorporateSTOT-Dem.otf") format("otf");
-}
-@font-face {
-  font-family: "CorporateReg";
-  src: url("../fonts/Corporate/CorporateSTOT-Reg.woff2") format("woff2"), url("../fonts/Corporate/CorporateSTOT-Reg.otf") format("otf");
-}
-@font-face {
-  font-family: "FallingSkyOu";
-  src: url("../fonts/Falling-Sky-Condensed-Outline/FallingSkyOu.woff2") format("woff2"), url("../fonts/Falling-Sky-Condensed-Outline/FallingSkyOu.otf") format("otf");
-}
-@font-face {
-  font-family: "ChalkLine";
-  src: url("../fonts/chalk_line_outline/ChalkLine-Outline.woff2") format("woff2"), url("../fonts/chalk_line_outline/ChalkLine-Outline.otf") format("otf");
-}
-@font-face {
-  font-family: "DirtyFont";
-  src: url("../fonts/dirty-headline/Dirty Headline.woff2") format("woff2"), url("../fonts/dirty-headline/Dirty Headline.ttf") format("ttf");
-}
-@font-face {
-  font-family: "Thunderlord";
-  src: url("../fonts/thunder_lord/ThunderLord.woff2") format("woff2"), url("../fonts/thunder_lord/ThunderLord.otf") format("otf");
-}
-@font-face {
-  font-family: "FoundSanExpNorm";
-  src: url("../fonts/Foundry/FOUSANNO.woff2") format("woff2"), url("../fonts/Foundry/FOUSANNO.otf") format("otf");
-}
-@font-face {
-  font-family: "FoundSanBd";
-  src: url("../fonts/Foundry/FOUSANBD.woff2") format("woff2"), url("../fonts/Foundry/FOUSANBD.otf") format("otf");
-}
-@font-face {
-  font-family: "FoundSanExpMed";
-  src: url("../fonts/Foundry/FOUSANMD.woff2") format("woff2"), url("../fonts/Foundry/FOUSANMD.otf") format("otf");
-}
-@font-face {
-  font-family: "FoundSanExBold";
-  src: url("../fonts/Foundry/FOUSANEB.woff2") format("woff2"), url("../fonts/Foundry/FOUSANEB.otf") format("otf");
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* textsizes*/
-/*$medium: 4rem;
-$large: 10rem;
-$huge: 20rem;
-
-$border-radius:*/
-/*Mediasetting*/
-/* Fonts */
-/* logos */
+    #content {
+        display: grid;
+        grid-auto-rows: min-content;
+        grid-template-columns: 90%;
+        //grid-auto-rows: minmax(100px, auto);
+        grid-gap:0px;
+        border-collapse: collapse;
+        margin: 3% 2% 1.5% 2%;
+        height: 95vh;
+       font-family: $primary-font;
+        overflow:visible;
+        position: relative;
+}} */
 /* #box4  {
     transform: translateY(0) scale(100%);
     transition: transform 1s ease-in-out; 
@@ -605,7 +537,7 @@ $border-radius:*/
     font-size: 1rem;
   }
   .box5 nav ul li {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   .box5 nav ul li a {
     font-size: 0.8rem;

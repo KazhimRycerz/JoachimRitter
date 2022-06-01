@@ -16,7 +16,7 @@ body {
         max-width: 1500px;
         height: 100%;
         max-height:1010;
-        border: solid;
+        //border: solid;
         padding-bottom: 0;
         img {
             position: absolute;
@@ -35,7 +35,7 @@ body {
         border-collapse: collapse;
         margin: 3% 2% 1.5% 2%;
         height: 95vh;
-        max-height: 1010px;
+        max-height: 1030px;
         font-family: $primary-font;
         overflow:visible;
         position: relative;
@@ -56,7 +56,7 @@ body {
             padding-top: 50px;
             //border: solid;
             h1 {
-                font-family: "TwoFold";
+                font-family: $headline;
                 text-transform: uppercase;
                 font-weight: 100;
                 font-size: 2.5rem;
@@ -211,6 +211,9 @@ body {
                 padding-left: 15%;
                 width: 100%;
                 margin-top: 10px;
+                display: flex;
+                flex-flow: column nowrap;
+                //border: solid;
                 li {
                     list-style-type: none;
                     margin-bottom: 20px;
@@ -289,6 +292,7 @@ body {
 }
     // Media Query defintions
     @media (max-width: $desktop){
+        
     .box2 { 
            h1 {
                 font-size: 1.5rem;
@@ -343,23 +347,16 @@ body {
         }
     }
         
-    @media (max-width: $tablet){
-
-        /* body {
-            background-size: 100vh;
-        } */
-        
-        .box2 {
-            h1 {
-                font-size: 1.0rem;
-                line-height: 2.5rem;   
-                //border: solid;
-            }
+    @media screen and (max-width: $tablet){        
+      .box2 h1 {
+            font-family: $headline;
+            font-size: 1.5rem;
+            line-height:2rem;        
             p {
             font-size: 0.5rem;
             }
         }
-        
+    
         .box3 {
             figure figcaption {
                 font-family: $primary-font-bold; 
@@ -367,7 +364,10 @@ body {
             }
         }
         
-        
+        .box4 a img {
+            width: 20vw;
+        }        
+            
         .box5 {
             article {
                 position: relative;
@@ -391,26 +391,37 @@ body {
             //border: solid;
             
             ul {
-                padding-left: 0px;
                 li{
-                    font-size: 0.5rem;
-                    margin-bottom: 10px;
-                    border: solid;
-                    margin-left: 0px;
-                    padding-left: 0;
+                    //border: solid;
+                    padding-left: 3px;
+                    margin: 0px;
+                    line-height: 0.6rem;
+                    a{
+                        font-size: 0.6rem;
+                        padding: 0;
+
+                    }
                 }
+            }
         }
-        }
-        
-        .box4 a img {
-            width: 20vw;
-        }
-        /* .box10 {
-            font-size: 0.6rem;
-            position: absolute;
-            bottom: 15vh;
-            top: 58.5vw;
-            
-        } */
+        .box10 {
+            font-size: 0.4rem;         
+    }
         
 }
+
+/* @media (max-width: 600px){
+
+    #content {
+        display: grid;
+        grid-auto-rows: min-content;
+        grid-template-columns: 90%;
+        //grid-auto-rows: minmax(100px, auto);
+        grid-gap:0px;
+        border-collapse: collapse;
+        margin: 3% 2% 1.5% 2%;
+        height: 95vh;
+       font-family: $primary-font;
+        overflow:visible;
+        position: relative;
+}} */

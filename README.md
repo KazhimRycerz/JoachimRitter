@@ -7,9 +7,9 @@ Journalist, manager, creator of opportunities, currently learning website coding
 ### Working plan
 
 - [x] basic set-up working tree and working plan
-- [ ] personal data
-- [ ] professional philosophie / motivation
-- [ ] professional carrear / influence in the professional world
+- [x] personal data
+- [ ] professional philosophy / motivation
+- [ ] professional career / influence in the professional world
 - [ ] experience and knowledge
 - [ ] where I see my future
 - [ ] contact and social media
